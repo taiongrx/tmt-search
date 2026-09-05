@@ -1,0 +1,86 @@
+{
+  "name": "TMT Drug Pipeline - Agentic AI Monitor & Alerting",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "tmt-pipeline-alert",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "1",
+      "name": "Webhook Ingest (from Airflow Agent)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.body.pipeline_status }}",
+              "value2": "HEALTHY"
+            }
+          ]
+        }
+      },
+      "id": "2",
+      "name": "Check Pipeline Health",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "message": "=✅ *TMT Data Pipeline Completed Successfully!*\n\n• *Release Version:* {{ $json.body.metrics.release_version }}\n• *Total Concepts Processed:* {{ $json.body.metrics.total_concepts.toLocaleString() }}\n• *Total Relations:* {{ $json.body.metrics.total_relations.toLocaleString() }}\n• *Agent Status:* {{ $json.body.pipeline_status }}\n• *Recommendation:* {{ $json.body.recommendation }}"
+      },
+      "id": "3",
+      "name": "Send Slack/Discord Notification",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 1,
+      "position": [720, 200]
+    },
+    {
+      "parameters": {
+        "message": "=⚠️ *TMT Data Pipeline Alert Detected!*\n\n• *Anomalies:* {{ $json.body.anomalies.join(', ') }}\n• *Action Required:* {{ $json.body.recommendation }}"
+      },
+      "id": "4",
+      "name": "Trigger Incident Response & LINE Alert",
+      "type": "n8n-nodes-base.lineNotify",
+      "typeVersion": 1,
+      "position": [720, 400]
+    }
+  ],
+  "connections": {
+    "Webhook Ingest (from Airflow Agent)": {
+      "main": [
+        [
+          {
+            "node": "Check Pipeline Health",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Pipeline Health": {
+      "main": [
+        [
+          {
+            "node": "Send Slack/Discord Notification",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Trigger Incident Response & LINE Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>n8n Workflow Visual Canvas: TMT & WHO-ATC Pipeline</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    .n8n-grid {
+      background-color: #1a1c23;
+      background-image: radial-gradient(#2d3748 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .node-card {
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .node-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 107, 107, 0.2);
+    }
+    .node-active {
+      border-color: #ff6b6b !important;
+      box-shadow: 0 0 20px rgba(255, 107, 107, 0.4);
+    }
+    .connector-line {
+      stroke: #4a5568;
+      stroke-width: 2;
+      fill: none;
+    }
+    .pulse-glow {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; filter: drop-shadow(0 0 6px #ff6b6b); }
+    }
+  </style>
+</head>
+<body class="bg-[#121316] text-gray-200 antialiased p-4 min-h-screen">
+  
+  <!-- Header Bar -->
+  <div class="flex items-center justify-between bg-[#1f232b] border border-gray-700 rounded-xl px-5 py-3 mb-4 shadow-lg">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-lg bg-[#ea4b71] flex items-center justify-center font-black text-white text-lg tracking-wider shadow-md">
+        n8n
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-base font-bold text-white tracking-wide">TMT & WHO-ATC ETL Pipeline with Agentic AI</h1>
+          <span class="px-2 py-0.5 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-medium">Active</span>
+        </div>
+        <p class="text-xs text-gray-400">Automated Ingestion, Salt Cleansing, Relational Loading & LLM Quality Audit</p>
+      </div>
+    </div>
+    
+    <div class="flex items-center gap-3">
+      <button onclick="runSimulation()" id="runBtn" class="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-semibold text-xs rounded-lg shadow-md transition-all active:scale-95">
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"/></svg>
+        <span>Execute Workflow (ทดสอบรัน)</span>
+      </button>
+      <span class="text-xs text-gray-400 border-l border-gray-700 pl-3">Last run: <b class="text-gray-200">5 mins ago</b></span>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <!-- n8n Interactive Canvas (2 Cols) -->
+    <div class="lg:col-span-2 relative n8n-grid rounded-xl border border-gray-700/80 p-6 min-h-[580px] overflow-hidden flex flex-col justify-between shadow-2xl">
+      
+      <!-- Top Badges -->
+      <div class="flex justify-between items-center text-xs text-gray-400 mb-2">
+        <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 pulse-glow"></span> n8n Engine v1.82 (Orchestration Live)</span>
+        <span>คลิกที่ Node เพื่อดู Parameter & Source Code</span>
+      </div>
+
+      <!-- Canvas Flow -->
+      <div class="space-y-7 relative z-10 py-2">
+        
+        <!-- Row 1: Triggers -->
+        <div class="flex items-center gap-6">
+          <div onclick="selectNode('cron')" id="node-cron" class="node-card bg-[#262b36] border-2 border-amber-500/70 rounded-xl p-3.5 w-60 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-amber-400 font-semibold">
+              <span class="flex items-center gap-1.5">⏰ Schedule Trigger</span>
+              <span class="text-[10px] bg-amber-500/20 px-1.5 py-0.5 rounded">Cron</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Weekly Sunday 02:00 AM</p>
+            <p class="text-[10px] text-gray-400 mt-1">Rule: 0 2 * * 0</p>
+          </div>
+
+          <div class="text-gray-500 font-mono text-sm">──►</div>
+
+          <div onclick="selectNode('extract')" id="node-extract" class="node-card bg-[#262b36] border-2 border-sky-500/70 rounded-xl p-3.5 w-72 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-sky-400 font-semibold">
+              <span class="flex items-center gap-1.5">🌐 HTTP Request</span>
+              <span class="text-[10px] bg-sky-500/20 px-1.5 py-0.5 rounded">REST / SPARQL</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Extract: Wikidata WHO-ATC</p>
+            <p class="text-[10px] text-gray-400 mt-1">GET 4,044 Level-5 Chemical Codes</p>
+          </div>
+        </div>
+
+        <!-- Row 2: Transform & Load -->
+        <div class="flex items-center gap-6 pl-12">
+          <div onclick="selectNode('transform')" id="node-transform" class="node-card bg-[#262b36] border-2 border-indigo-500/70 rounded-xl p-3.5 w-72 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-indigo-400 font-semibold">
+              <span class="flex items-center gap-1.5">⚡ Code Node</span>
+              <span class="text-[10px] bg-indigo-500/20 px-1.5 py-0.5 rounded">JavaScript</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Transform: Cleansing & Salt Strip</p>
+            <p class="text-[10px] text-gray-400 mt-1">Strip salts, syntax inversion, fuzzy match</p>
+          </div>
+
+          <div class="text-gray-500 font-mono text-sm">──►</div>
+
+          <div onclick="selectNode('load')" id="node-load" class="node-card bg-[#262b36] border-2 border-emerald-500/70 rounded-xl p-3.5 w-72 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-emerald-400 font-semibold">
+              <span class="flex items-center gap-1.5">🗄️ PostgreSQL Node</span>
+              <span class="text-[10px] bg-emerald-500/20 px-1.5 py-0.5 rounded">SQL DWH</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Load: Upsert to Database</p>
+            <p class="text-[10px] text-gray-400 mt-1">dim_concept & fact_relation & view</p>
+          </div>
+        </div>
+
+        <!-- Row 3: Agentic AI & Quality Gate -->
+        <div class="flex items-center gap-6 pl-24">
+          <div onclick="selectNode('ai')" id="node-ai" class="node-card bg-[#262b36] border-2 border-purple-500/70 rounded-xl p-3.5 w-72 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-purple-400 font-semibold">
+              <span class="flex items-center gap-1.5">🤖 AI Agent (LLM)</span>
+              <span class="text-[10px] bg-purple-500/20 px-1.5 py-0.5 rounded">LangChain</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Agentic AI Quality Auditor</p>
+            <p class="text-[10px] text-gray-400 mt-1">Audit metrics, GPU coverage & risk</p>
+          </div>
+
+          <div class="text-gray-500 font-mono text-sm">──►</div>
+
+          <div onclick="selectNode('gate')" id="node-gate" class="node-card bg-[#262b36] border-2 border-yellow-500/70 rounded-xl p-3.5 w-56 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-yellow-400 font-semibold">
+              <span class="flex items-center gap-1.5">⚖️ IF Condition</span>
+              <span class="text-[10px] bg-yellow-500/20 px-1.5 py-0.5 rounded">Quality Gate</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Coverage &gt;= 80.0% ?</p>
+            <p class="text-[10px] text-gray-400 mt-1">GPU Coverage: 85.87% (PASS)</p>
+          </div>
+        </div>
+
+        <!-- Row 4: Outputs / Alerts -->
+        <div class="flex items-center justify-end gap-6 pr-6">
+          <div onclick="selectNode('alert-ok')" id="node-alert-ok" class="node-card bg-[#262b36] border-2 border-teal-500/70 rounded-xl p-3 w-64 shadow-md">
+            <div class="flex items-center justify-between text-xs mb-1 text-teal-400 font-semibold">
+              <span class="flex items-center gap-1.5">📢 Webhook Output</span>
+              <span class="text-[10px] bg-teal-500/20 px-1.5 py-0.5 rounded">Discord/Slack</span>
+            </div>
+            <p class="text-xs font-bold text-white truncate">Success Alert: Hospital Ready</p>
+            <p class="text-[10px] text-gray-400 mt-1">Broadcast report with AI summary</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Execution Log Ticker -->
+      <div id="statusTicker" class="bg-[#121316]/90 border border-gray-800 rounded-lg p-2.5 text-xs text-gray-300 font-mono flex items-center justify-between">
+        <span class="text-emerald-400 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Status: Standby / Ready for execution</span>
+        <span class="text-gray-500">Pipeline ID: n8n-tmt-atc-01</span>
+      </div>
+    </div>
+
+    <!-- Inspector / Code & Detail Panel (1 Col) -->
+    <div class="bg-[#1f232b] border border-gray-700 rounded-xl p-5 shadow-2xl flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between pb-3 border-b border-gray-700 mb-4">
+          <div class="flex items-center gap-2">
+            <span id="inspectorIcon" class="text-lg">⚡</span>
+            <h2 id="inspectorTitle" class="text-sm font-bold text-white">Transform: Salt Stripping & Fuzzy Match</h2>
+          </div>
+          <span id="inspectorType" class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-400">JavaScript Node</span>
+        </div>
+
+        <div class="space-y-3">
+          <div>
+            <label class="text-[11px] font-semibold uppercase text-gray-400 tracking-wider">Node Description (หน้าที่ของโหนด)</label>
+            <p id="inspectorDesc" class="text-xs text-gray-300 mt-1 leading-relaxed">
+              ทำหน้าที่ตัดเกลือเคมี (Salt Stripping) เช่น hydrochloride, sodium, maleate เพื่อสกัดหาแกนตัวยาแท้ (Base INN) และทำการจับคู่กับรหัส TMT Substance/VTM
+            </p>
+          </div>
+
+          <div>
+            <label class="text-[11px] font-semibold uppercase text-gray-400 tracking-wider">Configuration / Code (โค้ดจริงในโหนด)</label>
+            <pre id="inspectorCode" class="mt-1 p-3 bg-[#14161b] rounded-lg text-[11px] text-amber-300 font-mono overflow-x-auto max-h-56 border border-gray-800">
+const SALTS = ['hydrochloride', 'sodium', 'potassium', 'maleate'];
+function clean(n) {
+  let w = n.toLowerCase().split(/\s+/);
+  return w.filter(x => !SALTS.includes(x)).join(' ');
+}
+// Matching against TMT Substance (SUBS)
+const match = atcLookup[clean(fsn)];
+            </pre>
+          </div>
+
+          <div>
+            <label class="text-[11px] font-semibold uppercase text-gray-400 tracking-wider">Output Payload (ผลลัพธ์ที่ส่งต่อ)</label>
+            <div id="inspectorOutput" class="mt-1 p-3 bg-[#14161b] rounded-lg text-[11px] text-emerald-400 font-mono overflow-x-auto max-h-32 border border-gray-800">
+{
+  "run_id": "RUN_20260905_001",
+  "gpu_coverage_pct": 85.87,
+  "tpu_coverage_pct": 93.13,
+  "mapped_entities": 3445,
+  "is_quality_pass": true
+}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t border-gray-700/80 mt-4 text-[11px] text-gray-400 flex items-center justify-between">
+        <span>File: <code>n8n/tmt_atc_pipeline_workflow.json</code></span>
+        <span class="text-emerald-400">Import Ready ✅</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const nodeDetails = {
+      'cron': {
+        icon: '⏰',
+        title: 'Schedule Trigger (Weekly)',
+        type: 'n8n-nodes-base.scheduleTrigger',
+        desc: 'สั่งรัน Data Pipeline โดยอัตโนมัติทุกเช้าวันอาทิตย์เวลา 02:00 น. เพื่อเตรียมข้อมูลให้พร้อมก่อนเริ่มสัปดาห์ใหม่ของโรงพยาบาล',
+        code: `{\n  "rule": {\n    "interval": [{\n      "field": "cronExpression",\n      "expression": "0 2 * * 0"\n    }]\n  }\n}`,
+        output: `{\n  "timestamp": "2026-09-06T02:00:00.000Z",\n  "trigger": "cron_scheduler"\n}`
+      },
+      'extract': {
+        icon: '🌐',
+        title: 'Extract: WHO-ATC from Wikidata SPARQL',
+        type: 'n8n-nodes-base.httpRequest',
+        desc: 'ส่ง Query ไปยัง Wikidata SPARQL Endpoint เพื่อดึงรหัสยามาตรฐานสากล WHO-ATC ระดับ 5 (7 หลัก) สดๆ 4,044 รายการโดยไม่ต้องใช้ API Key',
+        code: `URL: https://query.wikidata.org/sparql\nMethod: GET\nQuery: SELECT ?itemLabel ?atc WHERE {\n  ?item wdt:P267 ?atc.\n  FILTER(REGEX(?atc, "^[A-Z][0-9]{2}[A-Z]{2}[0-9]{2}$"))\n}`,
+        output: `[\n  { "name": "paracetamol", "atc": "N02BE01" },\n  { "name": "amoxicillin", "atc": "J01CA04" },\n  { "name": "omeprazole", "atc": "A02BC01" },\n  ... 4,041 more items\n]`
+      },
+      'transform': {
+        icon: '⚡',
+        title: 'Transform: Cleansing & Salt Strip',
+        type: 'n8n-nodes-base.code (JavaScript)',
+        desc: 'ทำการ Cleansing ชื่อยาทางเคมี: ตัดเกลือ (hydrochloride, sodium, maleate ฯลฯ) สลับคำเกลือหน้า-หลัง และแมปเข้ากับ TMT Substance & VTM',
+        code: `const SALTS = ["hydrochloride", "sodium", "potassium", "maleate"];\nfunction clean(n) {\n  let w = n.toLowerCase().split(/\\s+/);\n  return w.filter(x => !SALTS.includes(x)).join(" ");\n}\n// Calculate GPU & TPU coverage\nconst gpuCoverage = (9415 / 10964) * 100; // 85.87%`,
+        output: `{\n  "run_id": "RUN_20260905_001",\n  "gpu_total": 10964,\n  "gpu_mapped": 9415,\n  "gpu_coverage_pct": 85.87,\n  "tpu_coverage_pct": 93.13,\n  "is_quality_pass": true\n}`
+      },
+      'load': {
+        icon: '🗄️',
+        title: 'Load: Upsert to PostgreSQL / SQLite',
+        type: 'n8n-nodes-base.postgres',
+        desc: 'เขียนข้อมูล Concept (112,154 รายการ), Relation (168,653 รายการ) และตารางคู่เทียบ TMT-ATC ลงฐานข้อมูล พร้อมบันทึก audit log',
+        code: `INSERT INTO pipeline_audit_log (\n  run_id, release_version, total_concepts_ingested,\n  gpu_coverage_pct, tpu_coverage_pct, ai_agent_status\n) VALUES ($1, 'TMTRF20260817', 112154, 85.87, 93.13, 'PASSED');`,
+        output: `{\n  "command": "INSERT",\n  "rowCount": 1,\n  "status": "DWH_SYNC_SUCCESS"\n}`
+      },
+      'ai': {
+        icon: '🤖',
+        title: 'Agentic AI Quality Auditor',
+        type: '@n8n/n8n-nodes-langchain.agent (LLM)',
+        desc: 'ใช้ LLM Agent ตรวจสอบความถูกต้องของข้อมูล วิเคราะห์แนวโน้มการเปลี่ยนแปลงของตัวเลขความครอบคลุม และประเมินความเสี่ยงก่อนอนุมัติใช้งาน',
+        code: `Prompt: "You are an Expert Healthcare Data Quality AI Auditor.\nEvaluate the latest TMT-to-ATC ETL execution:\n- GPU Coverage: {{ $json.gpu_coverage_pct }}% (Target: > 80%)\n- TPU Coverage: {{ $json.tpu_coverage_pct }}%\nProvide an executive audit summary in Thai."`,
+        output: `{\n  "ai_verdict": "APPROVED",\n  "assessment": "ผลการประเมินคุณภาพข้อมูลผ่านเกณฑ์ดีเยี่ยม: รหัสยาระดับ GPU ครอบคลุมถึง 85.87% (9,415 รายการ) และระดับ TPU สูงถึง 93.13% ครอบคลุมยาหลักในบัญชียาโรงพยาบาลครบถ้วน พร้อมนำไปใช้งานในระบบสั่งยาจริงได้อย่างปลอดภัย"\n}`
+      },
+      'gate': {
+        icon: '⚖️',
+        title: 'Quality Gate (Coverage >= 80%)',
+        type: 'n8n-nodes-base.if',
+        desc: 'ด่านตรวจสอบคุณภาพอัตโนมัติ (Automated Quality Gate): หากความครอบคลุมของ GPU ต่ำกว่า 80% จะหยุดระบบและส่งสัญญาณ Incident ทันที',
+        code: `Expression:\n{{ $json.gpu_coverage_pct }} >= 80.0\n\nResult:\n85.87 >= 80.0  --> TRUE (Route to Success Output)`,
+        output: `{\n  "gate": "QUALITY_GATE_PASS",\n  "target_channel": "DISCORD_SLACK_SUCCESS"\n}`
+      },
+      'alert-ok': {
+        icon: '📢',
+        title: 'Notification: Success Broadcast',
+        type: 'n8n-nodes-base.discord / slack',
+        desc: 'ส่งสรุปผลการรัน พร้อมบทวิเคราะห์ของ AI เข้าแชตของทีมวิศวกรข้อมูลและทีมเภสัชกรโรงพยาบาลโดยอัตโนมัติ',
+        code: `Webhook Payload:\n{\n  "content": "✅ [ETL Success] TMT & WHO-ATC Ingestion Complete\\n• GPU Coverage: 85.87% (9,415 / 10,964)\\n• TPU Coverage: 93.13% (32,030 / 34,392)\\n• AI Verdict: APPROVED"\n}`,
+        output: `{\n  "message_id": "msg_98412847",\n  "status": "DELIVERED_200_OK"\n}`
+      }
+    };
+
+    function selectNode(id) {
+      document.querySelectorAll('.node-card').forEach(el => el.classList.remove('node-active'));
+      const card = document.getElementById('node-' + id);
+      if (card) card.classList.add('node-active');
+
+      const data = nodeDetails[id];
+      if (!data) return;
+
+      document.getElementById('inspectorIcon').textContent = data.icon;
+      document.getElementById('inspectorTitle').textContent = data.title;
+      document.getElementById('inspectorType').textContent = data.type;
+      document.getElementById('inspectorDesc').textContent = data.desc;
+      document.getElementById('inspectorCode').textContent = data.code;
+      document.getElementById('inspectorOutput').textContent = data.output;
+    }
+
+    function runSimulation() {
+      const btn = document.getElementById('runBtn');
+      const ticker = document.getElementById('statusTicker');
+      btn.disabled = true;
+      btn.innerHTML = '<span>⏳ Running Pipeline...</span>';
+
+      const nodes = ['cron', 'extract', 'transform', 'load', 'ai', 'gate', 'alert-ok'];
+      let idx = 0;
+
+      const interval = setInterval(() => {
+        if (idx < nodes.length) {
+          const nodeId = nodes[idx];
+          selectNode(nodeId);
+          ticker.innerHTML = `<span class="text-amber-400">⚡ Executing Node [${idx + 1}/${nodes.length}]: ${nodeDetails[nodeId].title}...</span>`;
+          idx++;
+        } else {
+          clearInterval(interval);
+          ticker.innerHTML = `<span class="text-emerald-400">✅ Workflow Execution Complete! Total Time: 3.42s | GPU Coverage: 85.87% | Status: APPROVED</span>`;
+          btn.disabled = false;
+          btn.innerHTML = `<svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"/></svg><span>Execute Workflow (ทดสอบรันอีกครั้ง)</span>`;
+        }
+      }, 700);
+    }
+
+    // Default select transform node
+    selectNode('transform');
+  </script>
+</body>
+</html>
