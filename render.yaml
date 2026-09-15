@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tmt-atc-api
+    env: python
+    buildCommand: pip install -r api/requirements.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 --chdir api tmt_to_atc_api:app
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9

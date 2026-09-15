@@ -383,10 +383,11 @@ def database_stats():
 # Run Server
 # ==============================================================================
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5050))
     print("=" * 70)
     print("  TMT-to-ATC Code Translation API")
     print(f"  Database: {DB_PATH}")
-    print(f"  Server:   http://localhost:5050")
+    print(f"  Server:   http://0.0.0.0:{port}")
     print("=" * 70)
     print()
     print("  Endpoints:")
@@ -397,4 +398,5 @@ if __name__ == "__main__":
     print("    GET  /api/stats                — สถิติฐานข้อมูล")
     print("=" * 70)
     
-    app.run(host="0.0.0.0", port=5050, debug=True)
+    app.run(host="0.0.0.0", port=port)
+
