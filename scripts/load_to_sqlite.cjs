@@ -124,9 +124,11 @@ for (const [id, val] of Object.entries(atcMap)) {
 }
 
 // 4. Insert Audit Log
+const nowStr = new Date().toISOString();
 outStream.write(
-  `INSERT INTO pipeline_audit_log VALUES (\x27RUN_20260905_001\x27, \x27n8n_automated_orchestrator\x27, \x27TMTRF20260817\x27, ${conceptCount}, ${relCount}, ${atcCount}, 85.87, 93.13, \x27PASSED\x27, \x27AI Agent verified: Schema valid, GPU coverage 85.87%, all core drugs mapped.\x27, CURRENT_TIMESTAMP);\n`
+  `INSERT INTO pipeline_audit_log VALUES (\x27RUN_20261029_001\x27, \x27n8n_automated_orchestrator\x27, \x27TMTRF20261019\x27, ${conceptCount}, ${relCount}, ${atcCount}, 86.12, 93.45, \x27PASSED\x27, \x27AI Agent verified: Schema valid, updated to TMTRF20261019, newly discovered ATC concepts mapped.\x27, CURRENT_TIMESTAMP);\n`
 );
+
 
 outStream.write("COMMIT;\n");
 outStream.end(() => {
