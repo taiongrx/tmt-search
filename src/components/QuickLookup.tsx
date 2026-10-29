@@ -77,8 +77,9 @@ export const QuickLookup: React.FC<QuickLookupProps> = ({ onSelectConcept, onNav
     const timer = setTimeout(async () => {
       setLoading(true);
       const targetTypes: ConceptType[] = selectedType === 'ALL' 
-        ? ['TPU', 'GPU', 'VTM', 'SUBS', 'TP', 'GP'] 
+        ? ['TPU', 'GPU', 'VTM', 'SUBS', 'TTMT', 'TP', 'GP'] 
         : [selectedType];
+
 
       const found: QuickResultItem[] = [];
 
@@ -139,9 +140,11 @@ export const QuickLookup: React.FC<QuickLookupProps> = ({ onSelectConcept, onNav
       case 'TP': return { bg: 'hsl(280, 75%, 92%)', text: 'hsl(280, 80%, 30%)' };
       case 'VTM': return { bg: 'hsl(35, 90%, 90%)', text: 'hsl(35, 95%, 28%)' };
       case 'SUBS': return { bg: 'hsl(340, 80%, 92%)', text: 'hsl(340, 85%, 32%)' };
+      case 'TTMT': return { bg: 'hsl(140, 80%, 90%)', text: 'hsl(140, 90%, 25%)' };
       default: return { bg: 'hsl(210, 20%, 90%)', text: 'hsl(210, 25%, 30%)' };
     }
   };
+
 
   return (
     <div className="card" style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -170,7 +173,7 @@ export const QuickLookup: React.FC<QuickLookupProps> = ({ onSelectConcept, onNav
 
         {/* Filter Pills */}
         <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-          {(['ALL', 'TPU', 'GPU', 'VTM', 'SUBS'] as const).map(type => (
+          {(['ALL', 'TPU', 'GPU', 'VTM', 'SUBS', 'TTMT'] as const).map(type => (
             <button
               key={type}
               onClick={() => setSelectedType(type)}
@@ -187,10 +190,11 @@ export const QuickLookup: React.FC<QuickLookupProps> = ({ onSelectConcept, onNav
                 transition: 'all 0.15s ease'
               }}
             >
-              {type === 'ALL' ? 'ทุกระดับ (All)' : type}
+              {type === 'ALL' ? 'ทุกระดับ (All)' : type === 'TTMT' ? '🌿 TTMT (ยาแผนไทย)' : type}
             </button>
           ))}
         </div>
+
       </div>
 
       {/* Big Search Input */}

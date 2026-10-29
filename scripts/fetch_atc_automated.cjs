@@ -187,16 +187,48 @@ async function runPipeline() {
     }
   }
 
-  // 2. Match Virtual Therapeutic Moieties (VTM)
+  // 2. Match Virtual Therapeutic Moieties (VTM) - Direct & Base matching
   for (const [id, concept] of Object.entries(vtms)) {
     if (finalAtcMap[id]) continue;
     const { cleaned, baseName } = normalizeDrugName(concept.fsn);
     const match = ALIASES[cleaned] || ALIASES[baseName] || exactMap.get(cleaned) || baseMap.get(baseName);
     if (match) {
-      finalAtcMap[id] = { atc: match.atc, name: match.name };
+      finalAtcMap[id] = { atc: match.atc, name: match.name, matchType: 'DIRECT' };
       newMatches++;
     }
   }
+
+  // 3. Match Combination VTMs (Multi-Ingredient & Primary Ingredient matching)
+  console.log("🧩 [TRANSFORM COMBINATIONS]: Resolving multi-ingredient combinations...");
+  for (const [id, concept] of Object.entries(vtms)) {
+    if (finalAtcMap[id]) continue;
+    if (!concept.fsn.includes("+")) continue;
+
+    // Split components
+    const rawParts = concept.fsn.replace(/\s*\(vtm\)\s*$/i, "").split("+").map(p => p.trim());
+    if (rawParts.length < 2) continue;
+
+    // Try finding ATC for the primary active ingredient (first active entity)
+    let primaryMatch = null;
+    for (const part of rawParts) {
+      const { cleaned, baseName } = normalizeDrugName(part);
+      const match = ALIASES[cleaned] || ALIASES[baseName] || exactMap.get(cleaned) || baseMap.get(baseName);
+      if (match) {
+        primaryMatch = match;
+        break;
+      }
+    }
+
+    if (primaryMatch) {
+      finalAtcMap[id] = { 
+        atc: primaryMatch.atc, 
+        name: `${concept.fsn.replace(/\s*\(vtm\)\s*$/i, "")} [Comb: ${primaryMatch.name}]`,
+        matchType: 'COMBINATION_PRIMARY'
+      };
+      newMatches++;
+    }
+  }
+
 
   console.log(`✅ [TRANSFORM COMPLETED]: Matched ${newMatches} newly discovered drug concepts.\n`);
 

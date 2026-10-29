@@ -1,4 +1,5 @@
-export type ConceptType = 'SUBS' | 'VTM' | 'GP' | 'TP' | 'GPU' | 'TPU' | 'GPP' | 'TPP';
+export type ConceptType = 'SUBS' | 'VTM' | 'GP' | 'TP' | 'GPU' | 'TPU' | 'GPP' | 'TPP' | 'TTMT';
+
 
 export interface Concept {
   id: string;

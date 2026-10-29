@@ -27,6 +27,11 @@
     "atc": "A11CC04",
     "name": "alendronic acid + calcitriol"
   },
+  "220379": {
+    "atc": "M05BA04",
+    "name": "alendronic acid + colecalciferol [Comb: alendronic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "220380": {
     "atc": "A02AB01",
     "name": "alginic acid + dried aluminium hydroxide gel + magnesium carbonate"
@@ -46,6 +51,11 @@
   "220426": {
     "atc": "L01XX03",
     "name": "altretamine"
+  },
+  "220435": {
+    "atc": "A02BX12",
+    "name": "aluminium sodium silicate + bismuth subnitrate + glycyrrhiza + sodium sulfate [Comb: Bismuth subnitrate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "220442": {
     "atc": "M01AB11",
@@ -158,6 +168,11 @@
   "220749": {
     "atc": "A12AA04",
     "name": "calcium carbonate + sodium alginate + sodium bicarbonate"
+  },
+  "220754": {
+    "atc": "A12AA13",
+    "name": "calcium citrate + calcium gluconate + glutamine [Comb: calcium citrate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "220765": {
     "atc": "M01AE01",
@@ -274,6 +289,11 @@
   "221119": {
     "atc": "C08DB01",
     "name": "diltiazem hydrochloride"
+  },
+  "221126": {
+    "atc": "G04BX13",
+    "name": "dimethyl sulfoxide + fluorouracil + salicylic acid [Comb: dimethyl sulfoxide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "221135": {
     "atc": "B01AC07",
@@ -679,6 +699,11 @@
     "atc": "C10AA08",
     "name": "pitavastatin calcium"
   },
+  "222498": {
+    "atc": "B05CB04",
+    "name": "potassium bicarbonate + sodium alginate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "222507": {
     "atc": "C10AA03",
     "name": "pravastatin sodium"
@@ -722,6 +747,11 @@
   "222632": {
     "atc": "L04AA10",
     "name": "sirolimus"
+  },
+  "222650": {
+    "atc": "B02BC08",
+    "name": "sodium alginate + sodium bicarbonate [Comb: calcium alginate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "222697": {
     "atc": "B01AD01",
@@ -2071,6 +2101,11 @@
     "atc": "J05AE03",
     "name": "ritonavir"
   },
+  "236591": {
+    "atc": "J05AE03",
+    "name": "lopinavir + ritonavir [Comb: ritonavir]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "236641": {
     "atc": "P02CA01",
     "name": "mebendazole"
@@ -2295,6 +2330,11 @@
     "atc": "A06AB04",
     "name": "phenolphthalein"
   },
+  "246616": {
+    "atc": "P02DA01",
+    "name": "niclosamide + phenolphthalein [Comb: niclosamide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "246663": {
     "atc": "N05BA06",
     "name": "lorazepam"
@@ -2451,6 +2491,11 @@
     "atc": "G02AB03",
     "name": "ergometrine"
   },
+  "254402": {
+    "atc": "G02AB03",
+    "name": "ergometrine maleate + ergotamine tartrate [Comb: ergometrine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "254456": {
     "atc": "J05AG03",
     "name": "efavirenz"
@@ -2482,6 +2527,11 @@
   "255279": {
     "atc": "N06BC01",
     "name": "caffeine"
+  },
+  "255298": {
+    "atc": "N06BC01",
+    "name": "caffeine + ergotamine tartrate [Comb: caffeine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "255349": {
     "atc": "J01MA14",
@@ -2803,6 +2853,11 @@
     "atc": "D06AX08",
     "name": "tyrothricin"
   },
+  "269233": {
+    "atc": "C05AD03",
+    "name": "benzocaine + tyrothricin [Comb: benzocaine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "269455": {
     "atc": "N05AB04",
     "name": "prochlorperazine"
@@ -2847,9 +2902,19 @@
     "atc": "A07BC01",
     "name": "pectin"
   },
+  "272652": {
+    "atc": "A02AA01",
+    "name": "charcoal + magnesium carbonate + pectin [Comb: magnesium carbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "272702": {
     "atc": "N04BA01",
     "name": "levodopa"
+  },
+  "272741": {
+    "atc": "N04BA01",
+    "name": "carbidopa + levodopa [Comb: levodopa]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "273028": {
     "atc": "C01AA05",
@@ -2866,6 +2931,11 @@
   "273211": {
     "atc": "C02CA04",
     "name": "doxazosin"
+  },
+  "273754": {
+    "atc": "N04BA01",
+    "name": "benserazide + levodopa [Comb: levodopa]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "274010": {
     "atc": "R03CC08",
@@ -3091,6 +3161,11 @@
     "atc": "J05AF05",
     "name": "lamivudine"
   },
+  "293077": {
+    "atc": "J05AF05",
+    "name": "lamivudine + zidovudine [Comb: lamivudine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "293530": {
     "atc": "N04BX02",
     "name": "entacapone"
@@ -3303,6 +3378,11 @@
     "atc": "A06AD19",
     "name": "magnesium citrate"
   },
+  "316535": {
+    "atc": "B05XA10",
+    "name": "calcium + magnesium [Comb: magnesium phosphate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "316601": {
     "atc": "N05BA14",
     "name": "pinazepam"
@@ -3403,6 +3483,11 @@
     "atc": "C05CA01",
     "name": "rutin"
   },
+  "322757": {
+    "atc": "C05CA01",
+    "name": "aescin + epl substance + rutin [Comb: rutin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "322960": {
     "atc": "J04AD03",
     "name": "ethionamide"
@@ -3483,6 +3568,11 @@
     "atc": "J04AB02",
     "name": "ethambutol hydrochloride + isoniazid + pyrazinamide + rifampicin"
   },
+  "330373": {
+    "atc": "P01BD01",
+    "name": "pyrimethamine + sulfadoxine [Comb: pyrimethamine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "330683": {
     "atc": "J05AE01",
     "name": "saquinavir"
@@ -3535,6 +3625,11 @@
     "atc": "D08AJ01",
     "name": "benzalkonium chloride"
   },
+  "335056": {
+    "atc": "D08AJ01",
+    "name": "benzalkonium chloride + diiodohydroxyquinoline + nystatin [Comb: benzalkonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "336368": {
     "atc": "A10BA02",
     "name": "gliclazide + metformin hydrochloride"
@@ -3578,6 +3673,11 @@
   "339479": {
     "atc": "J05AG01",
     "name": "nevirapine"
+  },
+  "339498": {
+    "atc": "J05AF05",
+    "name": "lamivudine + nevirapine + stavudine [Comb: lamivudine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "339609": {
     "atc": "J01MA21",
@@ -3695,9 +3795,19 @@
     "atc": "J04AB02",
     "name": "isoniazid + rifampicin"
   },
+  "351219": {
+    "atc": "D08AJ01",
+    "name": "benzalkonium chloride + benzocaine + tyrothricin [Comb: benzalkonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "351261": {
     "atc": "D08AJ08",
     "name": "benzethonium chloride"
+  },
+  "351288": {
+    "atc": "D08AJ08",
+    "name": "benzethonium chloride + benzocaine + tyrothricin [Comb: benzethonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "351337": {
     "atc": "N06AX17",
@@ -3751,6 +3861,11 @@
     "atc": "J05AF06",
     "name": "abacavir"
   },
+  "355368": {
+    "atc": "J05AF06",
+    "name": "abacavir + lamivudine [Comb: abacavir]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "356662": {
     "atc": "N03AX09",
     "name": "lamotrigine"
@@ -3762,6 +3877,11 @@
   "356945": {
     "atc": "D01AE15",
     "name": "terbinafine"
+  },
+  "357097": {
+    "atc": "J05AF05",
+    "name": "lamivudine + stavudine [Comb: lamivudine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "357959": {
     "atc": "A05BA03",
@@ -3846,6 +3966,16 @@
   "364939": {
     "atc": "G01AX05",
     "name": "Nifuratel"
+  },
+  "364956": {
+    "atc": "G01AX05",
+    "name": "nifuratel + nystatin [Comb: Nifuratel]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "370211": {
+    "atc": "M03BA03",
+    "name": "methocarbamol + phenylbutazone [Comb: methocarbamol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "370474": {
     "atc": "J01FA03",
@@ -4059,6 +4189,11 @@
     "atc": "A11CC01",
     "name": "ergocalciferol"
   },
+  "399794": {
+    "atc": "A11CC01",
+    "name": "calcium + ergocalciferol [Comb: ergocalciferol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "400543": {
     "atc": "H03BA02",
     "name": "propylthiouracil"
@@ -4074,6 +4209,11 @@
   "406835": {
     "atc": "A06AD04",
     "name": "magnesium sulfate"
+  },
+  "406857": {
+    "atc": "A06AD04",
+    "name": "magnesium sulfate + niclosamide [Comb: magnesium sulfate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "410450": {
     "atc": "J05AX02",
@@ -4091,6 +4231,11 @@
     "atc": "N06AX16",
     "name": "desvenlafaxine"
   },
+  "418276": {
+    "atc": "A09AA02",
+    "name": "pancreatin + proctase [Comb: pancreatin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "421995": {
     "atc": "N05AH04",
     "name": "quetiapine"
@@ -4098,6 +4243,11 @@
   "422014": {
     "atc": "N05AH04",
     "name": "quetiapine"
+  },
+  "422606": {
+    "atc": "A07AA02",
+    "name": "diiodohydroxyquinoline + nystatin [Comb: nystatin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "423658": {
     "atc": "A03AA01",
@@ -4239,9 +4389,19 @@
     "atc": "M03BX02",
     "name": "tizanidine"
   },
+  "446878": {
+    "atc": "N04BX02",
+    "name": "carbidopa + entacapone + levodopa [Comb: entacapone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "449815": {
     "atc": "D06BA06",
     "name": "sulfamerazine"
+  },
+  "449836": {
+    "atc": "J01EC02",
+    "name": "sulfadiazine + sulfadimidine + sulfamerazine [Comb: sulfadiazine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "449964": {
     "atc": "M04AB02",
@@ -4319,6 +4479,11 @@
     "atc": "D06BA02",
     "name": "sulfathiazole"
   },
+  "464827": {
+    "atc": "J01EC02",
+    "name": "sulfadiazine + sulfamerazine + sulfathiazole [Comb: sulfadiazine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "464955": {
     "atc": "N04BC08",
     "name": "piribedil"
@@ -4326,6 +4491,11 @@
   "464972": {
     "atc": "N04BC08",
     "name": "piribedil"
+  },
+  "465132": {
+    "atc": "J05AF06",
+    "name": "abacavir + lamivudine + zidovudine [Comb: abacavir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "467116": {
     "atc": "C03CA04",
@@ -4491,6 +4661,11 @@
     "atc": "C01EB02",
     "name": "camphor"
   },
+  "490771": {
+    "atc": "C01EB02",
+    "name": "calamine + camphor + menthol [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "490839": {
     "atc": "C05BB05",
     "name": "phenol"
@@ -4498,6 +4673,11 @@
   "490860": {
     "atc": "A12CB01",
     "name": "calamine + phenol + zinc oxide"
+  },
+  "490962": {
+    "atc": "D01AE12",
+    "name": "calamine + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "491030": {
     "atc": "A12CB01",
@@ -4546,6 +4726,11 @@
   "493274": {
     "atc": "S01XA05",
     "name": "edetate sodium"
+  },
+  "493290": {
+    "atc": "D08AJ04",
+    "name": "cetrimide + edetate disodium [Comb: cetrimide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "493699": {
     "atc": "J01AA07",
@@ -4599,6 +4784,11 @@
     "atc": "D07AC03",
     "name": "desoximetasone"
   },
+  "499717": {
+    "atc": "D07AC03",
+    "name": "desoximetasone + framycetin sulfate + gramicidin [Comb: desoximetasone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "499937": {
     "atc": "R06AA02",
     "name": "benzocaine + diphenhydramine hydrochloride"
@@ -4635,6 +4825,11 @@
     "atc": "D11AX11",
     "name": "hydroquinone"
   },
+  "502507": {
+    "atc": "C05AA10",
+    "name": "fluocinolone acetonide + neomycin sulfate [Comb: fluocinolone acetonide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "503591": {
     "atc": "J01GB03",
     "name": "gentamicin"
@@ -4642,6 +4837,11 @@
   "504256": {
     "atc": "S01AX07",
     "name": "borax"
+  },
+  "504273": {
+    "atc": "S01AX07",
+    "name": "borax + glycerol [Comb: borax]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "504391": {
     "atc": "H02AB08",
@@ -4663,6 +4863,11 @@
     "atc": "R05CA02",
     "name": "potassium iodide"
   },
+  "506047": {
+    "atc": "R05CA02",
+    "name": "iodine + potassium iodide [Comb: potassium iodide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "506735": {
     "atc": "H02AB08",
     "name": "kanamycin + triamcinolone acetonide"
@@ -4675,6 +4880,11 @@
     "atc": "N01BB02",
     "name": "lidocaine + prilocaine"
   },
+  "510097": {
+    "atc": "D01AE12",
+    "name": "carbolic acid + menthol + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "513412": {
     "atc": "D06AX09",
     "name": "mupirocin"
@@ -4686,6 +4896,16 @@
   "514063": {
     "atc": "D07AB07",
     "name": "fluprednidene"
+  },
+  "514160": {
+    "atc": "A01AB08",
+    "name": "bacitracin + neomycin [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "514346": {
+    "atc": "D08AH30",
+    "name": "bacitracin + clioquinol + neomycin [Comb: clioquinol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "514442": {
     "atc": "A12CB01",
@@ -4706,6 +4926,11 @@
   "515281": {
     "atc": "C05BB05",
     "name": "phenol"
+  },
+  "515402": {
+    "atc": "C05BB05",
+    "name": "phenol + salicylic acid [Comb: phenol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "515585": {
     "atc": "D11AH02",
@@ -4747,9 +4972,19 @@
     "atc": "D08AE04",
     "name": "triclosan"
   },
+  "517216": {
+    "atc": "D10AB02",
+    "name": "sulfur + triclosan [Comb: sulfur]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "518136": {
     "atc": "D08AA03",
     "name": "Euflavine"
+  },
+  "518158": {
+    "atc": "D08AA03",
+    "name": "euflavine + thymol [Comb: Euflavine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "518278": {
     "atc": "D01AC07",
@@ -4903,9 +5138,24 @@
     "atc": "S01EC04",
     "name": "brinzolamide"
   },
+  "522789": {
+    "atc": "S01EC04",
+    "name": "brinzolamide + timolol [Comb: brinzolamide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "522838": {
+    "atc": "S01EC03",
+    "name": "dorzolamide + timolol [Comb: dorzolamide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "522886": {
     "atc": "S01EE04",
     "name": "travoprost"
+  },
+  "522903": {
+    "atc": "S01EE04",
+    "name": "timolol + travoprost [Comb: travoprost]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "522957": {
     "atc": "J01GB01",
@@ -4983,6 +5233,11 @@
     "atc": "S01ED04",
     "name": "metipranolol"
   },
+  "525032": {
+    "atc": "S01ED04",
+    "name": "metipranolol + pilocarpine [Comb: metipranolol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "525287": {
     "atc": "A01AB10",
     "name": "natamycin"
@@ -5027,6 +5282,11 @@
     "atc": "D10AF06",
     "name": "sulfacetamide"
   },
+  "526668": {
+    "atc": "S01EE03",
+    "name": "bimatoprost + timolol [Comb: bimatoprost]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "526718": {
     "atc": "D11AX21",
     "name": "brimonidine"
@@ -5039,6 +5299,11 @@
     "atc": "S01EE01",
     "name": "latanoprost"
   },
+  "526917": {
+    "atc": "S01EE01",
+    "name": "latanoprost + timolol [Comb: latanoprost]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "527671": {
     "atc": "R05CB01",
     "name": "acetylcysteine + tuaminoheptane"
@@ -5046,6 +5311,11 @@
   "528522": {
     "atc": "B05BA03",
     "name": "dextrose"
+  },
+  "528892": {
+    "atc": "R01AC04",
+    "name": "antazoline hydrochloride + tetryzoline hydrochloride [Comb: antazoline]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "529589": {
     "atc": "B05CX03",
@@ -5055,9 +5325,19 @@
     "atc": "B05CX03",
     "name": "glycine"
   },
+  "530342": {
+    "atc": "C01CA06",
+    "name": "boric acid + phenylephrine hydrochloride [Comb: phenylephrine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "531048": {
     "atc": "A07DA01",
     "name": "diphenoxylate"
+  },
+  "531069": {
+    "atc": "A03BA01",
+    "name": "atropine sulfate + diphenoxylate hydrochloride [Comb: atropine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "531114": {
     "atc": "R05DA04",
@@ -5123,9 +5403,19 @@
     "atc": "N05BA08",
     "name": "bromazepam"
   },
+  "533509": {
+    "atc": "N05BA02",
+    "name": "chlordiazepoxide + clidinium bromide [Comb: chlordiazepoxide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "533578": {
     "atc": "N02CA02",
     "name": "ergotamine"
+  },
+  "533634": {
+    "atc": "N02CA02",
+    "name": "belladonna dry extract + ergotamine tartrate + phenobarbitone [Comb: ergotamine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "533901": {
     "atc": "N05CD08",
@@ -5367,6 +5657,11 @@
     "atc": "J07AM51",
     "name": "diphtheria toxoid"
   },
+  "560948": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + pertussis vaccine, acellular + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "561397": {
     "atc": "J01DH03",
     "name": "ertapenem"
@@ -5378,6 +5673,11 @@
   "561460": {
     "atc": "G03CA03",
     "name": "estradiol"
+  },
+  "561642": {
+    "atc": "G03DA04",
+    "name": "estradiol benzoate + progesterone [Comb: progesterone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "561690": {
     "atc": "N01AX07",
@@ -5523,6 +5823,11 @@
     "atc": "J01CG02",
     "name": "tazobactam"
   },
+  "575386": {
+    "atc": "J01CA12",
+    "name": "piperacillin + tazobactam [Comb: piperacillin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "576076": {
     "atc": "A06AD15",
     "name": "lauromacrogol 400"
@@ -5562,6 +5867,11 @@
   "579224": {
     "atc": "J01CE01",
     "name": "benzylpenicillin"
+  },
+  "579269": {
+    "atc": "J01CE01",
+    "name": "benzylpenicillin procaine + benzylpenicillin sodium + streptomycin [Comb: benzylpenicillin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "579314": {
     "atc": "J01CG01",
@@ -5743,6 +6053,11 @@
     "atc": "A07BC02",
     "name": "kaolin"
   },
+  "616863": {
+    "atc": "A07BC02",
+    "name": "kaolin + pectin [Comb: kaolin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "618133": {
     "atc": "A06AD11",
     "name": "lactulose"
@@ -5755,9 +6070,29 @@
     "atc": "G04BX12",
     "name": "phenyl salicylate"
   },
+  "620371": {
+    "atc": "G04BX12",
+    "name": "menthol + phenyl salicylate [Comb: phenyl salicylate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "621434": {
     "atc": "G01AX06",
     "name": "furazolidone"
+  },
+  "621452": {
+    "atc": "G01AX06",
+    "name": "furazolidone + kaolin + neomycin [Comb: furazolidone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "621549": {
+    "atc": "G01AX06",
+    "name": "furazolidone + kaolin + neomycin + pectin [Comb: furazolidone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "621605": {
+    "atc": "A07BC02",
+    "name": "kaolin + neomycin + pectin [Comb: kaolin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "622311": {
     "atc": "N02BE01",
@@ -5875,6 +6210,11 @@
     "atc": "D10AE01",
     "name": "benzoyl peroxide"
   },
+  "643869": {
+    "atc": "C04AE04",
+    "name": "clopamide + dihydroergocristine + reserpine [Comb: dihydroergocristine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "643967": {
     "atc": "A03BB01",
     "name": "hyoscine butylbromide"
@@ -5890,6 +6230,11 @@
   "644167": {
     "atc": "D08AX08",
     "name": "benzyl alcohol + cetylpyridinium chloride"
+  },
+  "644318": {
+    "atc": "A09AA02",
+    "name": "enzyme extract from Aspergillus oryzae + pancreatin [Comb: pancreatin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "644654": {
     "atc": "D07AD01",
@@ -5978,6 +6323,11 @@
   "646315": {
     "atc": "G03CA04",
     "name": "estriol"
+  },
+  "646336": {
+    "atc": "G03CA04",
+    "name": "estriol + lactobacillus acidophilus agent [Comb: estriol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "646406": {
     "atc": "G04CA02",
@@ -6259,6 +6609,11 @@
     "atc": "J01FF01",
     "name": "benzoyl peroxide + clindamycin"
   },
+  "654340": {
+    "atc": "D01AE12",
+    "name": "lactic acid + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "654449": {
     "atc": "J01FA01",
     "name": "erythromycin + isotretinoin"
@@ -6335,6 +6690,11 @@
     "atc": "J01DH04",
     "name": "doripenem"
   },
+  "656970": {
+    "atc": "D10AD03",
+    "name": "adapalene + benzoyl peroxide [Comb: adapalene]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "657210": {
     "atc": "P02CB02",
     "name": "diethylcarbamazine"
@@ -6350,6 +6710,16 @@
   "657528": {
     "atc": "A06AD15",
     "name": "macrogol 4000"
+  },
+  "657724": {
+    "atc": "A10AB01",
+    "name": "insulin human + isophane insulin [Comb: insulin (human)]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "657977": {
+    "atc": "J05AF05",
+    "name": "lamivudine + nevirapine + zidovudine [Comb: lamivudine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "658124": {
     "atc": "A10AB04",
@@ -6491,6 +6861,11 @@
     "atc": "J01DB01",
     "name": "cefalexin"
   },
+  "661993": {
+    "atc": "J05AF09",
+    "name": "emtricitabine + tenofovir disoproxil fumarate [Comb: emtricitabine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "662042": {
     "atc": "J01AA12",
     "name": "tigecycline"
@@ -6511,9 +6886,19 @@
     "atc": "J05AF06",
     "name": "abacavir"
   },
+  "662775": {
+    "atc": "D08AJ01",
+    "name": "benzalkonium chloride + loteprednol [Comb: benzalkonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "662845": {
     "atc": "H02AB02",
     "name": "benzalkonium chloride + dexamethasone"
+  },
+  "662924": {
+    "atc": "D08AJ04",
+    "name": "carbomer + cetrimide [Comb: cetrimide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "663031": {
     "atc": "R01AC01",
@@ -6563,9 +6948,39 @@
     "atc": "J01CE01",
     "name": "benzylpenicillin"
   },
+  "668321": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + pertussis vaccine, acellular + poliomyelitis, inactived type 1 (vero cell) + poliomyelitis, inactived type 2 (vero cell) + poliomyelitis, inactived type 3 (vero cell) + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "668460": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "669069": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + pertussis vaccine, acellular + poliomyelitis, inactived type 1 (vero cell) + poliomyelitis, inactived type 2 (vero cell) + poliomyelitis, inactived type 3 (vero cell) + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "669114": {
     "atc": "J07BC01",
     "name": "hepatitis b vaccine"
+  },
+  "669133": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + hepatitis B virus vaccine + pertussis vaccine, acellular + poliomyelitis, inactived type 1 (vero cell) + poliomyelitis, inactived type 2 (vero cell) + poliomyelitis, inactived type 3 (vero cell) + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "669599": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + pertussis vaccine, whole cell + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "669893": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + pertussis vaccine, whole cell + poliomyelitis, inactived type 1 (vero cell) + poliomyelitis, inactived type 2 (vero cell) + poliomyelitis, inactived type 3 (vero cell) + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "670286": {
     "atc": "S01KA08",
@@ -6582,6 +6997,11 @@
   "670446": {
     "atc": "S01EE05",
     "name": "tafluprost"
+  },
+  "670744": {
+    "atc": "A12BA02",
+    "name": "potassium citrate + sodium citrate [Comb: potassium citrate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "671180": {
     "atc": "N03AX18",
@@ -6615,6 +7035,11 @@
     "atc": "J07BC02",
     "name": "hepatitis a vaccine"
   },
+  "672932": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + hepatitis B virus vaccine + pertussis vaccine, whole cell + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "673131": {
     "atc": "V03AE01",
     "name": "polystyrene sulfonate"
@@ -6622,6 +7047,26 @@
   "673154": {
     "atc": "V03AE01",
     "name": "polystyrene sulfonate"
+  },
+  "673448": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + pertussis vaccine, acellular + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "673597": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + hepatitis B virus vaccine + pertussis vaccine, acellular + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "673652": {
+    "atc": "J07BC02",
+    "name": "hepatitis A virus vaccine + hepatitis B virus vaccine [Comb: hepatitis a vaccine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "673940": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + pneumococcal polysaccharide serotype 1 + pneumococcal polysaccharide serotype 14 + pneumococcal polysaccharide serotype 18C + pneumococcal polysaccharide serotype 19F + pneumococcal polysaccharide serotype 23F + pneumococcal polysaccharide serotype 4 + pneumococcal polysaccharide serotype 5 + pneumococcal polysaccharide serotype 6B + pneumococcal polysaccharide serotype 7F + pneumococcal polysaccharide serotype 9V + protein D + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "673993": {
     "atc": "R01BA02",
@@ -6655,17 +7100,52 @@
     "atc": "A11BA",
     "name": "multivitamins, plain"
   },
+  "675515": {
+    "atc": "B05BA01",
+    "name": "amino acids + multivitamins [Comb: amino acids solutions]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "675570": {
+    "atc": "A11BA",
+    "name": "calcium + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "675656": {
     "atc": "B03A",
     "name": "iron + multivitamins"
+  },
+  "675747": {
+    "atc": "A11BA",
+    "name": "lysine + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "675911": {
+    "atc": "A11BA",
+    "name": "minerals + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "676073": {
     "atc": "B03A",
     "name": "iron + lysine + minerals + multivitamins"
   },
+  "676127": {
+    "atc": "A11BA",
+    "name": "lysine + minerals + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "676535": {
+    "atc": "A11BA",
+    "name": "multivitamins + trace elements [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "676910": {
     "atc": "B05BA01",
     "name": "amino acids solutions"
+  },
+  "677262": {
+    "atc": "B05BA01",
+    "name": "amino acids + carbohydrates + minerals + multivitamins [Comb: amino acids solutions]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "677918": {
     "atc": "B05CB01",
@@ -6723,9 +7203,19 @@
     "atc": "A11DA01",
     "name": "ascorbic acid + colecalciferol + d-alpha tocopherol + thiamine"
   },
+  "679362": {
+    "atc": "G03CA03",
+    "name": "estradiol + norethisterone acetate [Comb: estradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "679410": {
     "atc": "G03AC10",
     "name": "drospirenone"
+  },
+  "679434": {
+    "atc": "G03AC10",
+    "name": "drospirenone + estradiol [Comb: drospirenone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "679481": {
     "atc": "G03DB06",
@@ -6735,6 +7225,21 @@
     "atc": "G03CA01",
     "name": "ethinylestradiol"
   },
+  "679520": {
+    "atc": "G03DB06",
+    "name": "chlormadinone + ethinylestradiol [Comb: chlormadinone acetate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "679679": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + norgestimate [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "679835": {
+    "atc": "G03HA01",
+    "name": "cyproterone + estradiol [Comb: cyproterone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "679900": {
     "atc": "G03GB02",
     "name": "clomifene"
@@ -6742,6 +7247,16 @@
   "679928": {
     "atc": "G03GB02",
     "name": "clomifene"
+  },
+  "680095": {
+    "atc": "G03AC06",
+    "name": "estradiol cypionate + medroxyprogesterone acetate [Comb: medroxyprogesterone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "680151": {
+    "atc": "G03HA01",
+    "name": "cyproterone + ethinylestradiol [Comb: cyproterone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "680228": {
     "atc": "G03GA09",
@@ -6759,6 +7274,16 @@
     "atc": "G03AC08",
     "name": "etonogestrel"
   },
+  "680523": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + norelgestromin [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "680575": {
+    "atc": "G03DB01",
+    "name": "dydrogesterone + estradiol [Comb: dydrogesterone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "680677": {
     "atc": "G03GA05",
     "name": "follitropin alfa"
@@ -6766,6 +7291,16 @@
   "680696": {
     "atc": "G03GA05",
     "name": "follitropin alfa"
+  },
+  "680988": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + gestodene [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "681653": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + levonorgestrel [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "681703": {
     "atc": "G03GA07",
@@ -6775,9 +7310,24 @@
     "atc": "G03GA07",
     "name": "lutropin alfa"
   },
+  "681788": {
+    "atc": "G03AC09",
+    "name": "desogestrel + ethinylestradiol [Comb: desogestrel]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "682234": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + etonogestrel [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "682366": {
     "atc": "G03CA04",
     "name": "estriol"
+  },
+  "682544": {
+    "atc": "G03GA05",
+    "name": "follitropin alfa + lutropin alfa [Comb: follitropin alfa]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "682661": {
     "atc": "G03CA57",
@@ -6806,6 +7356,16 @@
   "683241": {
     "atc": "G03DB08",
     "name": "dienogest"
+  },
+  "683260": {
+    "atc": "G03DB08",
+    "name": "dienogest + estradiol valerate [Comb: dienogest]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "683481": {
+    "atc": "G03AC10",
+    "name": "drospirenone + ethinylestradiol [Comb: drospirenone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "683577": {
     "atc": "L02BX03",
@@ -7107,9 +7667,24 @@
     "atc": "H02AB02",
     "name": "dexamethasone + framycetin sulfate + gramicidin"
   },
+  "691615": {
+    "atc": "A06AG04",
+    "name": "glycerol + polysorbate 80 [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "691749": {
     "atc": "D04AA16",
     "name": "pheniramine"
+  },
+  "691765": {
+    "atc": "R01AA08",
+    "name": "naphazoline + pheniramine [Comb: naphazoline]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "691823": {
+    "atc": "A06AG04",
+    "name": "carmellose sodium + glycerol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "691875": {
     "atc": "R01AC08",
@@ -7130,6 +7705,11 @@
   "692069": {
     "atc": "B05AA05",
     "name": "Dextran 70"
+  },
+  "692082": {
+    "atc": "B05AA05",
+    "name": "dextran 70 + hypromellose [Comb: Dextran 70]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "692285": {
     "atc": "A07AA05",
@@ -7175,6 +7755,11 @@
     "atc": "D01AE16",
     "name": "amorolfine"
   },
+  "693245": {
+    "atc": "B05XA04",
+    "name": "ammonium chloride + guaifenesin [Comb: ammonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "693561": {
     "atc": "C02DA01",
     "name": "diazoxide"
@@ -7191,6 +7776,16 @@
     "atc": "C10AA05",
     "name": "atorvastatin"
   },
+  "693975": {
+    "atc": "C09CA09",
+    "name": "azilsartan medoxomil + chlortalidone [Comb: azilsartan medoxomil]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "694110": {
+    "atc": "C01EB02",
+    "name": "camphor + clove oil + eucalyptus oil + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "694168": {
     "atc": "J05AE12",
     "name": "boceprevir"
@@ -7198,6 +7793,11 @@
   "694181": {
     "atc": "J05AE12",
     "name": "boceprevir"
+  },
+  "694335": {
+    "atc": "G01AX06",
+    "name": "furazolidone + kaolin + pectin [Comb: furazolidone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "694582": {
     "atc": "P01BA01",
@@ -7218,6 +7818,16 @@
   "695315": {
     "atc": "A07AB02",
     "name": "phthalylsulfathiazole"
+  },
+  "695336": {
+    "atc": "G01AX06",
+    "name": "diiodohydroxyquinoline + furazolidone + kaolin + neomycin + phthalylsulfathiazole [Comb: furazolidone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "695565": {
+    "atc": "A06AA02",
+    "name": "calcium sennosides + docusate sodium [Comb: docusate sodium]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "695717": {
     "atc": "C07AB09",
@@ -7287,9 +7897,19 @@
     "atc": "G04BE04",
     "name": "yohimbine"
   },
+  "699090": {
+    "atc": "A11HA04",
+    "name": "fursultiamine + riboflavin [Comb: riboflavin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "699850": {
     "atc": "A06AD15",
     "name": "haemodialysate + lauromacrogol 400"
+  },
+  "700245": {
+    "atc": "A01AB08",
+    "name": "gramicidin + neomycin sulfate + polymyxin b sulfate [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "700471": {
     "atc": "C07AG01",
@@ -7374,6 +7994,11 @@
   "705360": {
     "atc": "R01AA03",
     "name": "ephedrine"
+  },
+  "705631": {
+    "atc": "D01AE12",
+    "name": "benzoic acid + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "705683": {
     "atc": "D05AA",
@@ -7586,6 +8211,11 @@
   "717992": {
     "atc": "V04CX01",
     "name": "indocyanine green"
+  },
+  "718070": {
+    "atc": "A01AB08",
+    "name": "gramicidin + neomycin + polymyxin b sulfate [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "718690": {
     "atc": "G04BD06",
@@ -7811,6 +8441,11 @@
     "atc": "B02BB01",
     "name": "human fibrinogen"
   },
+  "724634": {
+    "atc": "B02BB01",
+    "name": "human fibrinogen + thrombin [Comb: human fibrinogen]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "724699": {
     "atc": "B02BB01",
     "name": "human fibrinogen"
@@ -7823,13 +8458,28 @@
     "atc": "B02BD13",
     "name": "coagulation factor X"
   },
+  "725682": {
+    "atc": "B02BD05",
+    "name": "coagulation factor II + coagulation factor VII + coagulation factor X + nonacog alfa [Comb: coagulation factor VII]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "725757": {
     "atc": "B02BD10",
     "name": "Von Willebrand factor"
   },
+  "725774": {
+    "atc": "B02BD02",
+    "name": "octocog alfa + von willebrand factor [Comb: coagulation factor VIII]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "726069": {
     "atc": "B02AB01",
     "name": "aprotinin"
+  },
+  "726095": {
+    "atc": "B02AB01",
+    "name": "aprotinin + calcium chloride + human fibrinogen + thrombin [Comb: aprotinin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "726677": {
     "atc": "A12AA04",
@@ -7838,6 +8488,11 @@
   "728451": {
     "atc": "A12CB01",
     "name": "benzoic acid + salicylic acid + zinc oxide"
+  },
+  "728576": {
+    "atc": "B05XA04",
+    "name": "ammonium chloride + sodium citrate [Comb: ammonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "728839": {
     "atc": "R05DB27",
@@ -7866,6 +8521,11 @@
   "730545": {
     "atc": "C01DX08",
     "name": "heptaminol"
+  },
+  "730566": {
+    "atc": "C01DX08",
+    "name": "ginkgo biloba extract + heptaminol + troxerutin [Comb: heptaminol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "730610": {
     "atc": "B05AA07",
@@ -7935,6 +8595,11 @@
     "atc": "P01BE02",
     "name": "artemether"
   },
+  "732459": {
+    "atc": "P01BE02",
+    "name": "artemether + lumefantrine [Comb: artemether]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "732601": {
     "atc": "A11GA01",
     "name": "ascorbic acid + hesperidin methyl chalcone + root extract of the ruscus aculeatus plant"
@@ -7947,9 +8612,19 @@
     "atc": "P01BB01",
     "name": "proguanil"
   },
+  "732693": {
+    "atc": "P01AX06",
+    "name": "atovaquone + proguanil hydrochloride [Comb: atovaquone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "732999": {
     "atc": "R05CA08",
     "name": "creosote"
+  },
+  "733053": {
+    "atc": "R05CA08",
+    "name": "creosote + geranium herb + phellodendron bark [Comb: creosote]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "733200": {
     "atc": "A10BB12",
@@ -7987,6 +8662,11 @@
     "atc": "A09AB04",
     "name": "citric acid"
   },
+  "734323": {
+    "atc": "A09AB04",
+    "name": "citric acid + sodium bicarbonate + sodium carbonate [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "734489": {
     "atc": "A03AA05",
     "name": "trimebutine"
@@ -8002,6 +8682,16 @@
   "734663": {
     "atc": "B05CB01",
     "name": "fructose + glycerol + sodium chloride"
+  },
+  "734824": {
+    "atc": "A06AC01",
+    "name": "ispaghula husk + psyllium seed [Comb: ispaghula (psylla seeds)]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "734922": {
+    "atc": "A06AC01",
+    "name": "ispaghula husk + psyllium seed + sennoside [Comb: ispaghula (psylla seeds)]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "735092": {
     "atc": "A10BJ01",
@@ -8038,6 +8728,11 @@
   "737480": {
     "atc": "C05CA03",
     "name": "diosmin"
+  },
+  "737524": {
+    "atc": "C05CA03",
+    "name": "diosmin + hesperidin [Comb: diosmin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "738128": {
     "atc": "A02AB01",
@@ -8079,6 +8774,11 @@
     "atc": "M05BX04",
     "name": "denosumab"
   },
+  "739761": {
+    "atc": "C01EB02",
+    "name": "camphor + menthol + phenol [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "739885": {
     "atc": "A06AC01",
     "name": "ispaghula (psylla seeds)"
@@ -8102,6 +8802,16 @@
   "741114": {
     "atc": "B05AA01",
     "name": "human serum albumin"
+  },
+  "741608": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + pertussis vaccine, inactivated bordetella + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "742351": {
+    "atc": "C01EB02",
+    "name": "camphor + capsicum tincture + compound cardamom tincture + strong ginger tincture [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "742564": {
     "atc": "A11DA01",
@@ -8130,6 +8840,11 @@
   "743858": {
     "atc": "J01XX05",
     "name": "methenamine"
+  },
+  "743901": {
+    "atc": "J01XX05",
+    "name": "methenamine + methylthioninium chloride + potassium nitrate [Comb: methenamine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "744015": {
     "atc": "A12AA04",
@@ -8279,6 +8994,16 @@
     "atc": "B03BA01",
     "name": "calcium pantothenate + cyanocobalamin + nicotinamide + pyridoxine hydrochloride + riboflavin + thiamine mononitrate"
   },
+  "748933": {
+    "atc": "A01AB08",
+    "name": "amylocaine hydrochloride + bacitracin + neomycin sulfate [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "749078": {
+    "atc": "A02AC01",
+    "name": "citric acid anhydrous + sodium bicarbonate coarse + sodium bicarbonate fine + sodium carbonate [Comb: calcium carbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "749423": {
     "atc": "J01DE01",
     "name": "cefepime hydrochloride"
@@ -8290,6 +9015,11 @@
   "749740": {
     "atc": "S01BA14",
     "name": "loteprednol etabonate"
+  },
+  "750202": {
+    "atc": "C05BB05",
+    "name": "albumin + phenol [Comb: phenol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "750410": {
     "atc": "A12AA07",
@@ -8323,6 +9053,11 @@
     "atc": "A03AD01",
     "name": "papaverine"
   },
+  "753227": {
+    "atc": "C01CA06",
+    "name": "phenylephrine hydrochloride + tropicamide [Comb: phenylephrine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "753412": {
     "atc": "D08AL01",
     "name": "silver nitrate"
@@ -8342,6 +9077,11 @@
   "754139": {
     "atc": "D11AF",
     "name": "wart and anti-corn preparations"
+  },
+  "754796": {
+    "atc": "D08AJ08",
+    "name": "benzethonium chloride + tyrothricin [Comb: benzethonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "755129": {
     "atc": "B03BA01",
@@ -8378,6 +9118,16 @@
   "756144": {
     "atc": "B03BB01",
     "name": "calcium pantothenate + cyanocobalamin + folic acid + nicotinamide + pyridoxine + riboflavin + thiamine"
+  },
+  "756251": {
+    "atc": "B05CB04",
+    "name": "catnep + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "756602": {
+    "atc": "D08AJ01",
+    "name": "benzalkonium chloride + cetrimide [Comb: benzalkonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "756694": {
     "atc": "H02AB08",
@@ -8531,9 +9281,19 @@
     "atc": "N05AB02",
     "name": "fluphenazine decanoate"
   },
+  "764772": {
+    "atc": "N06AX02",
+    "name": "histidine + isoleucine + leucine + lysine hydrochloride + methionine + phenylalanine + threonine + tryptophan + valine [Comb: tryptophan]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "765046": {
     "atc": "J05AF07",
     "name": "tenofovir disoproxil"
+  },
+  "765067": {
+    "atc": "J05AG03",
+    "name": "efavirenz + emtricitabine + tenofovir disoproxil fumarate [Comb: efavirenz]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "765112": {
     "atc": "J01XA01",
@@ -8555,6 +9315,11 @@
     "atc": "B03AA02",
     "name": "ascorbic acid + calcium pantothenate + calcium phosphate + ferrous fumarate + folic acid + nicotinamide + sodium fluoride + vitamin A + vitamin B1 + vitamin B12 + vitamin B2 + vitamin B6 + vitamin D3 + vitamin E"
   },
+  "765584": {
+    "atc": "D01AE18",
+    "name": "tolnaftate + triacetin [Comb: tolnaftate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "765675": {
     "atc": "D01AE18",
     "name": "tolnaftate"
@@ -8562,6 +9327,11 @@
   "766496": {
     "atc": "G03HA01",
     "name": "cyproterone"
+  },
+  "766514": {
+    "atc": "G03HA01",
+    "name": "cyproterone acetate + ethinylestradiol [Comb: cyproterone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "766800": {
     "atc": "A11DA01",
@@ -8639,6 +9409,11 @@
     "atc": "B03AA02",
     "name": "ascorbic acid + calcium phosphate + cyanocobalamin + ferrous fumarate + folic acid + nicotinamide + riboflavin + thiamine"
   },
+  "771062": {
+    "atc": "V03AB01",
+    "name": "compound gentian tincture + compound rhubarb tincture + ipecacuanha + peppermint spirit + sodium bicarbonate [Comb: Ipecacuanha]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "771155": {
     "atc": "D08AC02",
     "name": "chlorhexidine"
@@ -8675,6 +9450,11 @@
     "atc": "L04AD01",
     "name": "cyclosporine"
   },
+  "773539": {
+    "atc": "D08AE05",
+    "name": "chloroxylenol + special mouthwash [Comb: chloroxylenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "774903": {
     "atc": "A12CB01",
     "name": "resorcinol + salicylic acid + zinc oxide"
@@ -8694,6 +9474,11 @@
   "776021": {
     "atc": "A02AA04",
     "name": "calcium carbonate + calcium phosphate + magnesium hydroxide"
+  },
+  "776362": {
+    "atc": "G03CA01",
+    "name": "ethinylestradiol + norgestrel [Comb: ethinylestradiol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "777211": {
     "atc": "A12AA04",
@@ -8751,6 +9536,11 @@
     "atc": "V07AB",
     "name": "water for injection / solvents"
   },
+  "779968": {
+    "atc": "C01EB02",
+    "name": "camphor + eucalyptus oil + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "780172": {
     "atc": "B05BC01",
     "name": "eugenol + mannitol + methyl salicylate"
@@ -8807,9 +9597,19 @@
     "atc": "M01AX25",
     "name": "chondroitin sulfate"
   },
+  "784238": {
+    "atc": "S01KA08",
+    "name": "hyaluronate sodium + sodium chondroitin sulfate [Comb: hyaluronic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "784697": {
     "atc": "H02AB02",
     "name": "dexamethasone + neomycin"
+  },
+  "785032": {
+    "atc": "A09AA01",
+    "name": "asafoetida + capsicum + cascara extract + diastase + ginger + nux vomica extract [Comb: diastase]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "785985": {
     "atc": "B05CB01",
@@ -8863,6 +9663,11 @@
     "atc": "B03AA02",
     "name": "ascorbic acid + calcium lactate + calcium pantothenate + colecalciferol + copper + cyanocobalamin + ferrous fumarate + folic acid + iodine + nicotinamide + pyridoxine + retinol + riboflavin + sodium fluoride + thiamine mononitrate"
   },
+  "789558": {
+    "atc": "C01EB02",
+    "name": "camphor + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "790903": {
     "atc": "G03DB08",
     "name": "dienogest"
@@ -8883,9 +9688,19 @@
     "atc": "A12CB01",
     "name": "zinc gluconate"
   },
+  "791918": {
+    "atc": "A01AA01",
+    "name": "hydrofluoric acid + sodium fluoride [Comb: sodium fluoride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "792027": {
     "atc": "B05CB01",
     "name": "calcium chloride dihydrate + magnesium chloride hexahydrate + sodium bicarbonate + sodium chloride"
+  },
+  "792140": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + pertussis vaccine, whole cell + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "792441": {
     "atc": "R01AA08",
@@ -8918,6 +9733,16 @@
   "792898": {
     "atc": "D06AX13",
     "name": "retapamulin"
+  },
+  "792977": {
+    "atc": "G03AC01",
+    "name": "mestranol + norethisterone [Comb: norethisterone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "793050": {
+    "atc": "R05CA08",
+    "name": "belladonna + creosote + menthol + phenyl salicylate [Comb: creosote]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "793195": {
     "atc": "H02AB09",
@@ -8967,6 +9792,11 @@
     "atc": "N02BA03",
     "name": "choline salicylate"
   },
+  "794821": {
+    "atc": "N02BA03",
+    "name": "cetalkonium chloride + choline salicylate [Comb: choline salicylate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "795039": {
     "atc": "D08AC02",
     "name": "chlorhexidine gluconate + polihexanide"
@@ -8979,6 +9809,11 @@
     "atc": "V03AB35",
     "name": "sugammadex sodium"
   },
+  "795297": {
+    "atc": "D08AJ04",
+    "name": "aminacrine hydrochloride + cetrimide [Comb: cetrimide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "795463": {
     "atc": "A12AA04",
     "name": "calcium carbonate + calcium citrate + calcium gluconate + colecalciferol"
@@ -8986,6 +9821,16 @@
   "795638": {
     "atc": "A12AA04",
     "name": "boron + calcium carbonate + colecalciferol + copper + magnesium + manganese + zinc"
+  },
+  "795746": {
+    "atc": "C01EB02",
+    "name": "camphor + capsicum tincture + compound cardamom tincture + ginger tincture [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "796502": {
+    "atc": "G01AX06",
+    "name": "diiodohydroxyquinoline + furazolidone + neomycin sulfate + phthalylsulfathiazole [Comb: furazolidone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "797328": {
     "atc": "H02AB01",
@@ -9006,6 +9851,11 @@
   "798593": {
     "atc": "A12AA04",
     "name": "borax + calcium carbonate + colecalciferol + copper sulfate anhydrous + magnesium sulfate + manganese sulfate monohydrate + zinc sulfate"
+  },
+  "798749": {
+    "atc": "C01EB02",
+    "name": "camphor + eucalyptus oil + eugenol + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "798932": {
     "atc": "A12CB01",
@@ -9050,6 +9900,11 @@
   "801918": {
     "atc": "V03AN04",
     "name": "nitrogen"
+  },
+  "802730": {
+    "atc": "B05XA04",
+    "name": "ammonium chloride + glycyrrhiza + guaifenesin + squill tincture [Comb: ammonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "803130": {
     "atc": "B05BA04",
@@ -9127,6 +9982,16 @@
     "atc": "A14AB01",
     "name": "nandrolone"
   },
+  "804768": {
+    "atc": "A06AC01",
+    "name": "ispaghula husk + plantago ovata seeds [Comb: ispaghula (psylla seeds)]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "805041": {
+    "atc": "D08AE05",
+    "name": "chloroxylenol + edetic acid + triclosan [Comb: chloroxylenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "805330": {
     "atc": "C01CA07",
     "name": "dextrose + dobutamine"
@@ -9202,6 +10067,11 @@
   "810396": {
     "atc": "V08AB09",
     "name": "iodixanol"
+  },
+  "811138": {
+    "atc": "N05BX05",
+    "name": "lavender oil + lemon oil + nutmeg oil + strong ammonia solution [Comb: lavender oil]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "811537": {
     "atc": "R06AB01",
@@ -9299,6 +10169,11 @@
     "atc": "A11GA01",
     "name": "ascorbic acid + dequalinium chloride"
   },
+  "818219": {
+    "atc": "A09AB04",
+    "name": "citric acid + sodium bicarbonate + sodium citrate + tartaric acid [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "818668": {
     "atc": "J01XD01",
     "name": "furazolidone + metronidazole + phthalylsulfathiazole"
@@ -9306,6 +10181,11 @@
   "819250": {
     "atc": "A11GA01",
     "name": "ascorbic acid + copper + retinol + tocopherol + zinc"
+  },
+  "819820": {
+    "atc": "B05CB04",
+    "name": "dill oil + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "820498": {
     "atc": "B05CB01",
@@ -9315,9 +10195,19 @@
     "atc": "R05DA09",
     "name": "carbetapentane + dextromethorphan hydrobromide + guaifenesin"
   },
+  "820785": {
+    "atc": "C01EB02",
+    "name": "camphor + capsicum tincture + eucalyptus oil + eugenol + menthol + methyl salicylate + thymol [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "820936": {
     "atc": "A12AA04",
     "name": "calcium carbonate + colecalciferol + copper + magnesium + manganese + zinc"
+  },
+  "821736": {
+    "atc": "D08AJ01",
+    "name": "benzalkonium chloride + menthol [Comb: benzalkonium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "821886": {
     "atc": "D08AJ01",
@@ -9358,6 +10248,11 @@
   "824332": {
     "atc": "A03AB21",
     "name": "fenpiverinium"
+  },
+  "824378": {
+    "atc": "A03AB21",
+    "name": "fenpiverinium bromide + pitofenone hydrochloride [Comb: fenpiverinium]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "824537": {
     "atc": "A07AX03",
@@ -9459,6 +10354,11 @@
     "atc": "D08AX08",
     "name": "polyvinyl alcohol"
   },
+  "832007": {
+    "atc": "D01AE12",
+    "name": "flumetasone pivalate + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "832082": {
     "atc": "S01LA03",
     "name": "pegaptanib"
@@ -9482,6 +10382,16 @@
   "832829": {
     "atc": "G03CA07",
     "name": "estrone"
+  },
+  "832886": {
+    "atc": "G03CA07",
+    "name": "androstenediol + androstenedione + estrone + pregnenolone + testosterone + thyroid extract [Comb: estrone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "833353": {
+    "atc": "D01AE12",
+    "name": "mucopolysaccharide polysulfate + salicylic acid + suprarenal extract [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "833831": {
     "atc": "A11GA01",
@@ -9515,9 +10425,19 @@
     "atc": "A06AB08",
     "name": "sodium picosulfate"
   },
+  "835013": {
+    "atc": "A09AB04",
+    "name": "citric acid + magnesium oxide + sodium picosulfate [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "835651": {
     "atc": "D08AX08",
     "name": "polyvinyl alcohol + povidone"
+  },
+  "835786": {
+    "atc": "A11BA",
+    "name": "ginseng extract + minerals + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "836725": {
     "atc": "A06AB05",
@@ -9567,9 +10487,19 @@
     "atc": "M01AB01",
     "name": "indometacin + levomenthol"
   },
+  "839813": {
+    "atc": "R05CA08",
+    "name": "citrus unshiu peel + creosote + gambir + glycyrrhiza + phellodendron bark [Comb: creosote]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "840126": {
     "atc": "R06AA09",
     "name": "doxylamine"
+  },
+  "840573": {
+    "atc": "B05AA05",
+    "name": "dextran 70 + glycerol + hypromellose [Comb: Dextran 70]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "840848": {
     "atc": "G02CX01",
@@ -9582,6 +10512,11 @@
   "841041": {
     "atc": "D07AC06",
     "name": "diflucortolone"
+  },
+  "841087": {
+    "atc": "D07AC06",
+    "name": "diflucortolone valerate + isoconazole nitrate [Comb: diflucortolone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "841400": {
     "atc": "L02AE05",
@@ -9607,6 +10542,16 @@
     "atc": "D08AJ02",
     "name": "cetrimonium"
   },
+  "842294": {
+    "atc": "C05AD03",
+    "name": "benzocaine + tetracaine hydrochloride [Comb: benzocaine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "842890": {
+    "atc": "J06BA02",
+    "name": "human normal immunoglobulin + human serum albumin + immunoglobulin A + immunoglobulin M [Comb: immunoglobulins, normal human]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "842963": {
     "atc": "H02AB02",
     "name": "dexamethasone sodium phosphate"
@@ -9614,6 +10559,11 @@
   "842992": {
     "atc": "H02AB02",
     "name": "dexamethasone sodium phosphate + neomycin sulfate"
+  },
+  "843397": {
+    "atc": "D01AE12",
+    "name": "boric acid + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "843753": {
     "atc": "J05AX02",
@@ -9647,6 +10597,11 @@
     "atc": "J01DC03",
     "name": "cefamandole"
   },
+  "846133": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + hepatitis B virus vaccine + pertussis, inactived + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "847074": {
     "atc": "A11HA07",
     "name": "inositol"
@@ -9654,6 +10609,11 @@
   "847159": {
     "atc": "B03BA01",
     "name": "calcium pantothenate + choline + cyanocobalamin + inositol + methionine + nicotinamide + pyridoxine + riboflavin + thiamine"
+  },
+  "847438": {
+    "atc": "B05CB04",
+    "name": "capsicum tincture + cardamom tincture + sodium bicarbonate + strong ginger tincture [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "847884": {
     "atc": "R06AE07",
@@ -9667,6 +10627,11 @@
     "atc": "A04AD04",
     "name": "chlorobutanol"
   },
+  "848152": {
+    "atc": "A04AD04",
+    "name": "boric acid + chlorobutanol + salicylic acid + sodium borate [Comb: chlorobutanol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "848451": {
     "atc": "L01XC13",
     "name": "pertuzumab"
@@ -9674,6 +10639,16 @@
   "848479": {
     "atc": "L01XC13",
     "name": "pertuzumab"
+  },
+  "849085": {
+    "atc": "A11BA",
+    "name": "cod liver oil + multivitamins [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "849540": {
+    "atc": "B05CB04",
+    "name": "compound cardamom tincture + compound rhubarb tincture + compound tinospora tincture + peppermint spirit + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "849615": {
     "atc": "B03BB01",
@@ -9703,6 +10678,11 @@
     "atc": "A10BK01",
     "name": "dapagliflozin"
   },
+  "852632": {
+    "atc": "G04BX12",
+    "name": "anise oil + menthol + phenyl salicylate [Comb: phenyl salicylate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "853850": {
     "atc": "B05CB01",
     "name": "calcium chloride dihydrate + dextrose monohydrate + glacial acetic acid + magnesium chloride hexahydrate + potassium chloride + sodium chloride"
@@ -9714,6 +10694,11 @@
   "854358": {
     "atc": "A09AB01",
     "name": "glutamic acid hydrochloride"
+  },
+  "854423": {
+    "atc": "B05XB01",
+    "name": "alanine + arginine + aspartic acid + glutamic acid + histidine + isoleucine + leucine + lysine acetate + methionine + phenylalanine + proline + serine + threonine + tryptophan + valine [Comb: arginine hydrochloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "855120": {
     "atc": "N06AA02",
@@ -9790,6 +10775,11 @@
   "859091": {
     "atc": "B03AA02",
     "name": "ascorbic acid + calcium lactate + cyanocobalamin + ergocalciferol + ferrous fumarate + folic acid + nicotinamide + pyridoxine + riboflavin + thiamine"
+  },
+  "859234": {
+    "atc": "C01EB02",
+    "name": "camphor + menthol + methyl salicylate + nonivamide [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "859439": {
     "atc": "B03BB01",
@@ -9879,6 +10869,11 @@
     "atc": "N02AX02",
     "name": "tramadol hydrochloride"
   },
+  "864984": {
+    "atc": "R06AB01",
+    "name": "brompheniramine maleate + phenylephrine hydrochloride [Comb: brompheniramine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "865795": {
     "atc": "A11HA02",
     "name": "pyridoxine hydrochloride"
@@ -9947,6 +10942,11 @@
     "atc": "R05CB03",
     "name": "carbocisteine"
   },
+  "869972": {
+    "atc": "G01AC05",
+    "name": "dequalinium chloride + tyrothricin [Comb: dequalinium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "871033": {
     "atc": "A03FA03",
     "name": "domperidone maleate"
@@ -9954,6 +10954,11 @@
   "871242": {
     "atc": "A02AB01",
     "name": "aluminium hydroxide + belladonna extract + magnesium trisilicate"
+  },
+  "871804": {
+    "atc": "A11CC01",
+    "name": "ergocalciferol + retinyl acetate [Comb: ergocalciferol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "871870": {
     "atc": "A11DA01",
@@ -9974,6 +10979,11 @@
   "873264": {
     "atc": "B03BA01",
     "name": "colecalciferol + cyanocobalamin + d-panthenol + lysine + nicotinamide + pyridoxine hydrochloride + retinol + riboflavin + thiamine hydrochloride"
+  },
+  "873433": {
+    "atc": "B05CB04",
+    "name": "compound cardamom tincture + compound rhubarb tincture + compound tinospora tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "874574": {
     "atc": "A12CB01",
@@ -10047,6 +11057,26 @@
     "atc": "G01AD02",
     "name": "acetic acid"
   },
+  "880495": {
+    "atc": "A06AG04",
+    "name": "glycerol + sorbitol + syrup [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "880566": {
+    "atc": "A06AG04",
+    "name": "glycerol + sorbitol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "880610": {
+    "atc": "B05CB04",
+    "name": "compound cardamom tincture + ginger tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "880623": {
+    "atc": "A09AB04",
+    "name": "citric acid + sodium citrate [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "881078": {
     "atc": "D08AX08",
     "name": "isopropyl alcohol"
@@ -10058,6 +11088,11 @@
   "882437": {
     "atc": "G03DB04",
     "name": "nomegestrol"
+  },
+  "882459": {
+    "atc": "G03CA03",
+    "name": "estradiol + nomegestrol acetate [Comb: estradiol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "884525": {
     "atc": "A06AD19",
@@ -10111,6 +11146,11 @@
     "atc": "A10BA02",
     "name": "linagliptin + metformin hydrochloride"
   },
+  "891171": {
+    "atc": "D08AE05",
+    "name": "chloroxylenol + menthol [Comb: chloroxylenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "891280": {
     "atc": "G04BX13",
     "name": "dimethyl sulfoxide"
@@ -10122,6 +11162,11 @@
   "891527": {
     "atc": "D02BA02",
     "name": "octinoxate"
+  },
+  "891562": {
+    "atc": "D02BA02",
+    "name": "octinoxate + oxybenzone [Comb: octinoxate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "892411": {
     "atc": "H02AB08",
@@ -10146,6 +11191,11 @@
   "893269": {
     "atc": "H02AB08",
     "name": "triamcinolone acetonide + urea"
+  },
+  "893913": {
+    "atc": "B05CB04",
+    "name": "compound cardamom tincture + sodium bicarbonate + strong ginger tincture [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "894236": {
     "atc": "D08AX08",
@@ -10195,9 +11245,24 @@
     "atc": "A12CB01",
     "name": "borax + salicylic acid + zinc oxide"
   },
+  "896632": {
+    "atc": "D01AE12",
+    "name": "resorcinol + salicylic acid [Comb: salicylic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "896936": {
+    "atc": "A06AG04",
+    "name": "glycerol + sodium borate [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "897070": {
     "atc": "N01BB02",
     "name": "lidocaine"
+  },
+  "897983": {
+    "atc": "D08AE05",
+    "name": "chloroxylenol + phenol [Comb: chloroxylenol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "899556": {
     "atc": "D08AX08",
@@ -10235,6 +11300,16 @@
     "atc": "N01BC01",
     "name": "cocaine"
   },
+  "902504": {
+    "atc": "R05CA02",
+    "name": "potassium iodide + sodium thiosulfate [Comb: potassium iodide]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "903293": {
+    "atc": "A09AB04",
+    "name": "citric acid + sucrose [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "903548": {
     "atc": "B03BB01",
     "name": "biotin + calcium pantothenate + cyanocobalamin + folic acid + nicotinamide + pyridoxine + riboflavin + thiamine"
@@ -10243,6 +11318,11 @@
     "atc": "C04AE04",
     "name": "dihydroergocristine"
   },
+  "903887": {
+    "atc": "C04AE04",
+    "name": "dihydroergocornine mesilate + dihydroergocristine mesilate + dihydroergocryptine mesilate [Comb: dihydroergocristine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "904471": {
     "atc": "G04BD02",
     "name": "flavoxate"
@@ -10250,6 +11330,11 @@
   "904492": {
     "atc": "G04BD02",
     "name": "flavoxate"
+  },
+  "904655": {
+    "atc": "B05CB04",
+    "name": "activated charcoal + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "905174": {
     "atc": "A12AA07",
@@ -10262,6 +11347,11 @@
   "905671": {
     "atc": "N06AA14",
     "name": "melitracen"
+  },
+  "905692": {
+    "atc": "N06AA14",
+    "name": "flupentixol + melitracen [Comb: melitracen]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "906125": {
     "atc": "G02CB01",
@@ -10395,6 +11485,11 @@
     "atc": "M01AB05",
     "name": "diclofenac potassium"
   },
+  "917397": {
+    "atc": "C01EB02",
+    "name": "camphor + peppermint oil + rhubarb + sodium bicarbonate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "918260": {
     "atc": "D08AX08",
     "name": "ethyl alcohol + orange oil + propylene glycol"
@@ -10419,9 +11514,24 @@
     "atc": "B05CB01",
     "name": "macrogol + potassium chloride + sodium bicarbonate + sodium chloride + sodium sulfate anhydrous"
   },
+  "920432": {
+    "atc": "B05CB04",
+    "name": "boric acid + sodium bicarbonate + sodium hypochlorite [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "920534": {
     "atc": "D08AX08",
     "name": "chloroxylenol + ethyl alcohol + menthol + peppermint oil + saccharin"
+  },
+  "921800": {
+    "atc": "D05AA",
+    "name": "coal tar + glycerol [Comb: tar products]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "922268": {
+    "atc": "D05AA",
+    "name": "coal tar + salicylic acid [Comb: tar products]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "922418": {
     "atc": "N01BB02",
@@ -10447,9 +11557,19 @@
     "atc": "A06AG01",
     "name": "dibasic sodium phosphate + phosphoric acid"
   },
+  "923698": {
+    "atc": "A09AB04",
+    "name": "citric acid + potassium citrate + sodium citrate [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "923755": {
     "atc": "A06AD15",
     "name": "macrogol"
+  },
+  "924019": {
+    "atc": "A09AB04",
+    "name": "citric acid + potassium citrate [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "924953": {
     "atc": "D08AX08",
@@ -10487,6 +11607,11 @@
     "atc": "N01BB02",
     "name": "fluocinolone acetonide + lidocaine hydrochloride"
   },
+  "929405": {
+    "atc": "B05CB04",
+    "name": "bismuth carbonate + compound cardamom tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "929433": {
     "atc": "A07BC02",
     "name": "kaolin"
@@ -10503,9 +11628,24 @@
     "atc": "B03AA02",
     "name": "ascorbic acid + calcium lactate + ferrous fumarate + rutoside"
   },
+  "930354": {
+    "atc": "N05BX05",
+    "name": "bergamot oil + lavender oil + lemon oil + menthol + methyl salicylate + orange oil + pine needle oil + rosemary oil + terpineol + terpinyl acetate [Comb: lavender oil]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "931724": {
+    "atc": "C05BB05",
+    "name": "olive oil + phenol [Comb: phenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "931879": {
     "atc": "A12CB01",
     "name": "chromium + copper + iodine + zinc"
+  },
+  "932178": {
+    "atc": "B05CB04",
+    "name": "compound gentian tincture + rhubarb tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "932243": {
     "atc": "R06AB04",
@@ -10515,9 +11655,24 @@
     "atc": "A12CB01",
     "name": "borax + sulfur + zinc oxide + zinc sulfate"
   },
+  "932364": {
+    "atc": "C01EB02",
+    "name": "camphor + menthol + resorcinol [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "932449": {
+    "atc": "C01EB02",
+    "name": "cajuput oil + camphor + eucalyptus oil + eugenol + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "932496": {
     "atc": "D08AX08",
     "name": "cetyl alcohol + stearyl alcohol"
+  },
+  "932551": {
+    "atc": "B05CB04",
+    "name": "anise oil + ginger tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "933017": {
     "atc": "A12CB01",
@@ -10526,6 +11681,16 @@
   "933721": {
     "atc": "C01CA24",
     "name": "epinephrine bitartrate"
+  },
+  "933869": {
+    "atc": "B05CB04",
+    "name": "compound cardamom tincture + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "933933": {
+    "atc": "R05CA02",
+    "name": "aromatic ammonia spirit + compound gentian tincture + potassium iodide [Comb: potassium iodide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "934122": {
     "atc": "D08AC02",
@@ -10547,6 +11712,16 @@
     "atc": "D08AX08",
     "name": "ethyl alcohol + peppermint oil"
   },
+  "934612": {
+    "atc": "A06AG04",
+    "name": "glycerol + octadecanoic acid + olive oil + potassium hydroxide [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "934677": {
+    "atc": "D10AB02",
+    "name": "bees wax + mineral oil + sulfur + white petrolatum [Comb: sulfur]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "934704": {
     "atc": "D08AX08",
     "name": "alcohol + iodine + potassium iodide"
@@ -10559,6 +11734,11 @@
     "atc": "N06BC01",
     "name": "caffeine"
   },
+  "935083": {
+    "atc": "C05BB05",
+    "name": "phenol + sodium bicarbonate [Comb: phenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "935238": {
     "atc": "N01BB02",
     "name": "borax + glycerol + lidocaine + lidocaine hydrochloride"
@@ -10567,6 +11747,11 @@
     "atc": "A12CB01",
     "name": "resorcinol + salicylic acid + talc + zinc oxide"
   },
+  "935361": {
+    "atc": "B05XA10",
+    "name": "calcium + magnesium + phosphate + sodium [Comb: magnesium phosphate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "935422": {
     "atc": "B05CB01",
     "name": "sodium bicarbonate + sodium chloride"
@@ -10574,6 +11759,21 @@
   "935684": {
     "atc": "H02AB08",
     "name": "lactic acid + triamcinolone acetonide"
+  },
+  "936273": {
+    "atc": "V03AB01",
+    "name": "ammonium carbonate + glycyrrhiza + ipecacuanha [Comb: Ipecacuanha]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "936565": {
+    "atc": "D08AE01",
+    "name": "hexachlorophene + salicylic acid [Comb: hexachlorophene]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "937868": {
+    "atc": "D05AA",
+    "name": "coal tar + resorcinol + salicylic acid [Comb: tar products]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "939002": {
     "atc": "A06AD15",
@@ -10607,6 +11807,11 @@
     "atc": "A11DA01",
     "name": "ascorbic acid + colecalciferol + lysine hydrochloride + nicotinamide + pyridoxine hydrochloride + retinol + riboflavin + thiamine hydrochloride"
   },
+  "941334": {
+    "atc": "C01EB02",
+    "name": "camphor + eucalyptus oil + menthol [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "941709": {
     "atc": "D08AC02",
     "name": "chlorhexidine gluconate + ethyl alcohol + glycerol"
@@ -10635,6 +11840,11 @@
     "atc": "L04AA29",
     "name": "tofacitinib"
   },
+  "944327": {
+    "atc": "G03AC10",
+    "name": "drospirenone + ethinylestradiol + levomefolate calcium [Comb: drospirenone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "944531": {
     "atc": "L03AX15",
     "name": "mifamurtide"
@@ -10642,6 +11852,11 @@
   "944554": {
     "atc": "L03AX15",
     "name": "mifamurtide"
+  },
+  "944622": {
+    "atc": "P01BE03",
+    "name": "artesunate + mefloquine [Comb: artesunate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "945634": {
     "atc": "J05AE08",
@@ -10654,6 +11869,26 @@
   "945741": {
     "atc": "L01XB01",
     "name": "procarbazine"
+  },
+  "946431": {
+    "atc": "D10AB02",
+    "name": "calamine + sulfur [Comb: sulfur]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "946522": {
+    "atc": "V03AB01",
+    "name": "ammonium carbonate + ipecacuanha + senega tincture [Comb: Ipecacuanha]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "946669": {
+    "atc": "C05BB05",
+    "name": "boric acid + phenol + resorcinol [Comb: phenol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "946735": {
+    "atc": "A02AA01",
+    "name": "magnesium carbonate + magnesium sulfate + peppermint oil [Comb: magnesium carbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "946939": {
     "atc": "N01BB02",
@@ -10707,6 +11942,11 @@
     "atc": "N01BB02",
     "name": "lidocaine hydrochloride + magnesium + potassium"
   },
+  "951670": {
+    "atc": "B05CB04",
+    "name": "sodium bicarbonate + strong ginger tincture [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "952114": {
     "atc": "B05CB01",
     "name": "glycerol + sodium chloride"
@@ -10727,6 +11967,11 @@
     "atc": "D08AX08",
     "name": "cetomacrogol + cetyl alcohol + methylparaben + mineral oil + propylene glycol + propylparaben + stearyl alcohol + white petrolatum"
   },
+  "953297": {
+    "atc": "D05AC01",
+    "name": "dithranol + salicylic acid [Comb: dithranol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "953330": {
     "atc": "D08AX08",
     "name": "boric acid + ethyl alcohol"
@@ -10738,6 +11983,11 @@
   "953831": {
     "atc": "D08AK04",
     "name": "merbromin"
+  },
+  "953923": {
+    "atc": "C01EB02",
+    "name": "camphor + compound rhubarb tincture + peppermint oil + sodium bicarbonate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "954152": {
     "atc": "C08CA01",
@@ -10774,6 +12024,11 @@
   "955336": {
     "atc": "B03BA01",
     "name": "cyanocobalamin + pyridoxine hydrochloride + thiamine mononitrate"
+  },
+  "955452": {
+    "atc": "B05CB04",
+    "name": "anise oil + caraway oil + cardamom oil + catnep + fennel oil + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "955622": {
     "atc": "R05DA09",
@@ -10867,9 +12122,19 @@
     "atc": "C08CA01",
     "name": "amlodipine + perindopril arginine"
   },
+  "958291": {
+    "atc": "A06AG04",
+    "name": "boric acid + glycerol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "958329": {
     "atc": "C09CA01",
     "name": "losartan potassium"
+  },
+  "958386": {
+    "atc": "A01AB08",
+    "name": "amylocaine hydrochloride + bacitracin + neomycin [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "958483": {
     "atc": "H02AB02",
@@ -10935,9 +12200,19 @@
     "atc": "S01JA01",
     "name": "fluorescein"
   },
+  "961445": {
+    "atc": "C01EB02",
+    "name": "camphor + eugenol + menthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "961631": {
     "atc": "N01BB02",
     "name": "benzalkonium chloride + lidocaine hydrochloride"
+  },
+  "961727": {
+    "atc": "D02BA02",
+    "name": "octinoxate + sulisobenzone [Comb: octinoxate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "961926": {
     "atc": "S01XA05",
@@ -11019,9 +12294,19 @@
     "atc": "N02BE01",
     "name": "chlorphenamine maleate + paracetamol + phenylephrine + phenylephrine hydrochloride"
   },
+  "964091": {
+    "atc": "R06AB01",
+    "name": "brompheniramine maleate + guaifenesin + phenylephrine hydrochloride [Comb: brompheniramine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "964117": {
     "atc": "N02BE01",
     "name": "chlorphenamine maleate + dextromethorphan hydrobromide + paracetamol + phenylephrine hydrochloride"
+  },
+  "964164": {
+    "atc": "C01CA06",
+    "name": "dimetindene + phenylephrine hydrochloride [Comb: phenylephrine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "964563": {
     "atc": "A03AD02",
@@ -11046,6 +12331,11 @@
   "965354": {
     "atc": "J05AP08",
     "name": "sofosbuvir"
+  },
+  "965706": {
+    "atc": "R06AB01",
+    "name": "brompheniramine maleate + phenylephrine hydrochloride + phenylpropanolamine [Comb: brompheniramine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "965710": {
     "atc": "N02BE01",
@@ -11082,6 +12372,11 @@
   "966025": {
     "atc": "J05AX11",
     "name": "elvitegravir"
+  },
+  "966041": {
+    "atc": "V03AX03",
+    "name": "cobicistat + elvitegravir + emtricitabine + tenofovir disoproxil fumarate [Comb: cobicistat]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "966307": {
     "atc": "B03BA01",
@@ -11143,6 +12438,11 @@
     "atc": "R05DA09",
     "name": "dextromethorphan hydrobromide + guaifenesin + phenylephrine hydrochloride"
   },
+  "967496": {
+    "atc": "R05CA03",
+    "name": "guaifenesin + phenylephrine hydrochloride [Comb: guaifenesin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "967505": {
     "atc": "A11HA02",
     "name": "ascorbic acid + colecalciferol + pyridoxine hydrochloride"
@@ -11170,6 +12470,11 @@
   "968142": {
     "atc": "C01CA01",
     "name": "etilefrine"
+  },
+  "968347": {
+    "atc": "R03AC18",
+    "name": "glycopyrronium + indacaterol [Comb: indacaterol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "969835": {
     "atc": "A12CB01",
@@ -11207,6 +12512,11 @@
     "atc": "J01FF01",
     "name": "clindamycin hydrochloride"
   },
+  "971499": {
+    "atc": "A09AB04",
+    "name": "citric acid + glycerol [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "971857": {
     "atc": "H02AB08",
     "name": "glycolic acid + tretinoin + triamcinolone acetonide"
@@ -11230,6 +12540,11 @@
   "974231": {
     "atc": "V03AF03",
     "name": "calcium folinate"
+  },
+  "974283": {
+    "atc": "G03CA03",
+    "name": "estradiol valerate + medroxyprogesterone acetate [Comb: estradiol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "974306": {
     "atc": "B05BC01",
@@ -11335,6 +12650,11 @@
     "atc": "B05CB01",
     "name": "potassium acetate + potassium chloride + sodium chloride"
   },
+  "976516": {
+    "atc": "S01KA02",
+    "name": "hypromellose + sodium fluoride [Comb: hypromellose]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "976635": {
     "atc": "D08AX08",
     "name": "coal tar + ethyl alcohol + propylene glycol"
@@ -11342,6 +12662,11 @@
   "976690": {
     "atc": "D08AX08",
     "name": "ethyl alcohol + methoxsalen"
+  },
+  "976908": {
+    "atc": "D08AK04",
+    "name": "merbromin + thiomersal [Comb: merbromin]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "977031": {
     "atc": "D08AX08",
@@ -11383,13 +12708,38 @@
     "atc": "B05CB01",
     "name": "glacial acetic acid + sodium chloride"
   },
+  "979960": {
+    "atc": "A12CC01",
+    "name": "magnesium chloride + potassium acetate + procaine hydrochloride [Comb: magnesium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "980596": {
+    "atc": "S01AX07",
+    "name": "borax + resorcinol + salicylic acid [Comb: borax]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "980698": {
     "atc": "B03AA07",
     "name": "ferrous sulfate + nitric acid + sulfuric acid"
   },
+  "980890": {
+    "atc": "B05CB04",
+    "name": "mineral oil + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "980963": {
     "atc": "G03AC01",
     "name": "norethisterone"
+  },
+  "980971": {
+    "atc": "G03CA03",
+    "name": "estradiol valerate + norgestrel [Comb: estradiol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "980992": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + hepatitis B virus vaccine + pertussis + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "981008": {
     "atc": "L01DC01",
@@ -11459,9 +12809,19 @@
     "atc": "J01AA02",
     "name": "doxycycline hyclate"
   },
+  "985062": {
+    "atc": "A06AG04",
+    "name": "carmellose + glycerol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "985101": {
     "atc": "A12CB01",
     "name": "calamine + menthol + zinc oxide"
+  },
+  "985234": {
+    "atc": "V03AB01",
+    "name": "compound rhubarb tincture + compound tinospora tincture + ipecacuanha + sodium bicarbonate [Comb: Ipecacuanha]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "985321": {
     "atc": "D07XB04",
@@ -11479,9 +12839,24 @@
     "atc": "H01BA02",
     "name": "desmopressin"
   },
+  "985494": {
+    "atc": "B05CB04",
+    "name": "compound rhubarb tincture + sodium bicarbonate + weak ginger tincture [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "986185": {
+    "atc": "A02AA01",
+    "name": "magnesium carbonate + magnesium sulfate [Comb: magnesium carbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "986543": {
     "atc": "A12CB01",
     "name": "resorcinol + salicylic acid + sulfur + zinc oxide"
+  },
+  "987228": {
+    "atc": "D11AX11",
+    "name": "hydroquinone + tretinoin [Comb: hydroquinone]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "987263": {
     "atc": "H02AB01",
@@ -11535,6 +12910,11 @@
     "atc": "C07AB09",
     "name": "esmolol"
   },
+  "989773": {
+    "atc": "A06AG04",
+    "name": "glycerol + sodium bicarbonate [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "990797": {
     "atc": "C08DA01",
     "name": "verapamil hydrochloride"
@@ -11578,6 +12958,11 @@
   "992406": {
     "atc": "N01BB02",
     "name": "fludrocortisone acetate + furaltadone hydrochloride + lidocaine hydrochloride + neomycin + polymyxin b sulfate"
+  },
+  "992410": {
+    "atc": "C05AA10",
+    "name": "fluocinolone acetonide + hydroquinone + tretinoin [Comb: fluocinolone acetonide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "992577": {
     "atc": "H02AB09",
@@ -11623,6 +13008,11 @@
     "atc": "P01BE05",
     "name": "dihydroartemisinin"
   },
+  "994509": {
+    "atc": "P01BE05",
+    "name": "dihydroartemisinin + piperaquine tetraphosphate [Comb: dihydroartemisinin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "994623": {
     "atc": "A11DA01",
     "name": "ascorbic acid + calcium lactate + colecalciferol + ferrous gluconate + nicotinamide + riboflavin + thiamine hydrochloride + tribasic calcium phosphate"
@@ -11630,6 +13020,11 @@
   "994787": {
     "atc": "A11HA03",
     "name": "d-alpha tocopherol"
+  },
+  "995496": {
+    "atc": "S01EE05",
+    "name": "tafluprost + timolol [Comb: tafluprost]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "995939": {
     "atc": "H02AB02",
@@ -11642,6 +13037,11 @@
   "995956": {
     "atc": "J01AA07",
     "name": "chloramphenicol + chlortetracycline + neomycin sulfate"
+  },
+  "995960": {
+    "atc": "D07AB07",
+    "name": "cloxiquine + fluprednidene + neomycin sulfate [Comb: fluprednidene]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "995987": {
     "atc": "B05CB01",
@@ -11694,6 +13094,11 @@
   "996743": {
     "atc": "R03BA05",
     "name": "fluticasone furoate + vilanterol"
+  },
+  "996886": {
+    "atc": "J05AP08",
+    "name": "ledipasvir + sofosbuvir [Comb: sofosbuvir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "996935": {
     "atc": "N05BX03",
@@ -11755,6 +13160,11 @@
     "atc": "C07AB02",
     "name": "felodipine + metoprolol succinate"
   },
+  "1001712": {
+    "atc": "G04CB02",
+    "name": "dutasteride + tamsulosin hydrochloride [Comb: dutasteride]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1001950": {
     "atc": "J01DD04",
     "name": "ceftriaxone + lidocaine hydrochloride"
@@ -11775,9 +13185,19 @@
     "atc": "L01XC15",
     "name": "obinutuzumab"
   },
+  "1002179": {
+    "atc": "A06AG04",
+    "name": "carmellose sodium + glycerol + polysorbate 80 [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1002244": {
     "atc": "D11AX21",
     "name": "brimonidine"
+  },
+  "1002263": {
+    "atc": "D11AX21",
+    "name": "brimonidine tartrate + brinzolamide [Comb: brimonidine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1002318": {
     "atc": "J05AX12",
@@ -11786,6 +13206,11 @@
   "1002339": {
     "atc": "J05AX12",
     "name": "dolutegravir"
+  },
+  "1002387": {
+    "atc": "J05AF06",
+    "name": "abacavir + dolutegravir + lamivudine [Comb: abacavir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1002620": {
     "atc": "C07AB05",
@@ -11866,6 +13291,11 @@
   "1004915": {
     "atc": "R03BB04",
     "name": "tiotropium bromide"
+  },
+  "1004962": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + filamentous haemagglutinin (FHA) + recombinant pertussis toxin (rPT) + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1005202": {
     "atc": "D01AC10",
@@ -11959,6 +13389,11 @@
     "atc": "G03XB01",
     "name": "mifepristone"
   },
+  "1011608": {
+    "atc": "G03XB01",
+    "name": "mifepristone + misoprostol [Comb: mifepristone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1011990": {
     "atc": "J02AA01",
     "name": "amphotericin B (as liposomal) + liposomal agent"
@@ -12038,6 +13473,11 @@
   "1014299": {
     "atc": "A12CB01",
     "name": "salicylic acid + talc + zinc oxide"
+  },
+  "1015035": {
+    "atc": "A06AG04",
+    "name": "glycerol + quinine sulfate [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1015090": {
     "atc": "L01XX46",
@@ -12163,6 +13603,11 @@
     "atc": "H02AB02",
     "name": "dexamethasone phosphate"
   },
+  "1020383": {
+    "atc": "J01CG02",
+    "name": "ceftolozane + tazobactam [Comb: tazobactam]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1020455": {
     "atc": "C08CA01",
     "name": "levamlodipine"
@@ -12174,6 +13619,11 @@
   "1020911": {
     "atc": "R03BB07",
     "name": "umeclidinium bromide"
+  },
+  "1020948": {
+    "atc": "R03BB07",
+    "name": "umeclidinium + vilanterol [Comb: umeclidinium bromide]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1020995": {
     "atc": "R03BB07",
@@ -12219,6 +13669,11 @@
     "atc": "D11AX21",
     "name": "brimonidine"
   },
+  "1023086": {
+    "atc": "D11AX21",
+    "name": "brimonidine tartrate + timolol [Comb: brimonidine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1023220": {
     "atc": "L04AA33",
     "name": "vedolizumab"
@@ -12227,6 +13682,11 @@
     "atc": "L04AA33",
     "name": "vedolizumab"
   },
+  "1024076": {
+    "atc": "A06AG04",
+    "name": "carmellose + glycerol + methylparaben + propylparaben + sorbitol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1024341": {
     "atc": "C10AX13",
     "name": "evolocumab"
@@ -12234,6 +13694,11 @@
   "1024360": {
     "atc": "C10AX13",
     "name": "evolocumab"
+  },
+  "1025264": {
+    "atc": "A12BA01",
+    "name": "calcium + chloride + magnesium + potassium + sodium [Comb: potassium chloride]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1025530": {
     "atc": "N07AX01",
@@ -12263,9 +13728,19 @@
     "atc": "B05BA03",
     "name": "amino acid + calcium gluconate + dextrose"
   },
+  "1027044": {
+    "atc": "B05CB04",
+    "name": "sodium bicarbonate + weak ginger tincture [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1027253": {
     "atc": "N01BB02",
     "name": "hyaluronic acid + lidocaine hydrochloride"
+  },
+  "1027670": {
+    "atc": "C01EB02",
+    "name": "camphor + eucalyptus oil [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1027875": {
     "atc": "C01DA02",
@@ -12319,6 +13794,11 @@
     "atc": "B05CB01",
     "name": "calcium chloride + dextrose + magnesium chloride + potassium acetate + sodium chloride + sodium citrate + sodium metabisulfite + zinc sulfate"
   },
+  "1031579": {
+    "atc": "B02AB01",
+    "name": "aprotinin + calcium chloride dihydrate + human fibrinogen + thrombin [Comb: aprotinin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1031837": {
     "atc": "G03BA03",
     "name": "testosterone undecanoate"
@@ -12367,6 +13847,11 @@
     "atc": "L04AC13",
     "name": "ixekizumab"
   },
+  "1034493": {
+    "atc": "C01EB02",
+    "name": "camphor + eucalyptus oil + menthol + methyl salicylate + peppermint oil [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1035640": {
     "atc": "C07AG01",
     "name": "labetalol hydrochloride"
@@ -12375,9 +13860,24 @@
     "atc": "C07AG01",
     "name": "labetalol hydrochloride"
   },
+  "1036594": {
+    "atc": "C01EB02",
+    "name": "camphor + turpentine oil + wintergreen oil [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1036721": {
     "atc": "J05AF13",
     "name": "tenofovir alafenamide"
+  },
+  "1036745": {
+    "atc": "V03AX03",
+    "name": "cobicistat + elvitegravir + emtricitabine + tenofovir alafenamide [Comb: cobicistat]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1036811": {
+    "atc": "J05AP08",
+    "name": "sofosbuvir + velpatasvir [Comb: sofosbuvir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1037955": {
     "atc": "L01XE39",
@@ -12443,6 +13943,11 @@
     "atc": "J05AF13",
     "name": "tenofovir alafenamide"
   },
+  "1043534": {
+    "atc": "B05CB04",
+    "name": "activated charcoal + peppermint oil + sodium bicarbonate [Comb: sodium bicarbonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1043654": {
     "atc": "L04AA34",
     "name": "alemtuzumab"
@@ -12451,6 +13956,11 @@
     "atc": "L04AA34",
     "name": "alemtuzumab"
   },
+  "1043840": {
+    "atc": "A06AG04",
+    "name": "carmellose sodium + glycerol + hyaluronate sodium [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1048734": {
     "atc": "C09CA10",
     "name": "fimasartan"
@@ -12458,6 +13968,16 @@
   "1048752": {
     "atc": "C09CA10",
     "name": "fimasartan"
+  },
+  "1049941": {
+    "atc": "S01KA02",
+    "name": "hypromellose + phenylephrine hydrochloride [Comb: hypromellose]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1049960": {
+    "atc": "S01KA02",
+    "name": "hypromellose + tropicamide [Comb: hypromellose]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1050178": {
     "atc": "B01AC27",
@@ -12482,6 +14002,11 @@
   "1051610": {
     "atc": "A11HA03",
     "name": "d-alpha tocopherol + phytomenadione + retinol + ergocalciferol"
+  },
+  "1052504": {
+    "atc": "A06AG04",
+    "name": "glycerol + salicylic acid + trichloroacetic acid [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1053480": {
     "atc": "G03AD02",
@@ -12554,6 +14079,11 @@
   "1111584": {
     "atc": "S01AD02",
     "name": "trifluridine"
+  },
+  "1111606": {
+    "atc": "S01AD02",
+    "name": "tipiracil + trifluridine [Comb: trifluridine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1111794": {
     "atc": "L01XX50",
@@ -12643,9 +14173,19 @@
     "atc": "N02AA01",
     "name": "morphine"
   },
+  "1119409": {
+    "atc": "J07AM51",
+    "name": "diphtheria toxoid + haemophilus influenzae type b vaccine + hepatitis B virus vaccine + pertussis vaccine, whole cell + tetanus toxoid [Comb: diphtheria toxoid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1119552": {
     "atc": "C10AA05",
     "name": "atorvastatin + ezetimibe"
+  },
+  "1120306": {
+    "atc": "P01BE03",
+    "name": "artesunate + pyronaridine tetraphosphate [Comb: artesunate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1121311": {
     "atc": "B01AB12",
@@ -12666,6 +14206,11 @@
   "1122971": {
     "atc": "D08AX08",
     "name": "cetomacrogol + cetyl alcohol + edetic acid + methylparaben + mineral oil + propylene glycol + strearyl alcohol + white petrolatum"
+  },
+  "1124219": {
+    "atc": "A06AG04",
+    "name": "glycerol + hydrogen peroxide [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1124453": {
     "atc": "M01AC01",
@@ -12750,6 +14295,11 @@
   "1135777": {
     "atc": "N02AB03",
     "name": "bupivacaine hydrochloride + fentanyl"
+  },
+  "1135834": {
+    "atc": "A12AA13",
+    "name": "calcium citrate + colecalciferol [Comb: calcium citrate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1136313": {
     "atc": "B03BA03",
@@ -12907,6 +14457,11 @@
     "atc": "A12CB01",
     "name": "bacitracin zinc + neomycin"
   },
+  "1157421": {
+    "atc": "D08AH30",
+    "name": "bacitracin + clioquinol + neomycin sulfate [Comb: clioquinol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1157450": {
     "atc": "H02AB09",
     "name": "chloramphenicol + hydrocortisone acetate"
@@ -12919,9 +14474,24 @@
     "atc": "N02BE01",
     "name": "chlorphenamine maleate + paracetamol + phenylephrine"
   },
+  "1159080": {
+    "atc": "J05AF09",
+    "name": "bictegravir + emtricitabine + tenofovir alafenamide [Comb: emtricitabine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1159274": {
+    "atc": "J05AF09",
+    "name": "emtricitabine + tenofovir alafenamide [Comb: emtricitabine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1160426": {
     "atc": "A06AD15",
     "name": "macrogol 40"
+  },
+  "1160435": {
+    "atc": "J05AX12",
+    "name": "dolutegravir + lamivudine + tenofovir disoproxil fumarate [Comb: dolutegravir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1161188": {
     "atc": "A02AB01",
@@ -13043,6 +14613,21 @@
     "atc": "A12CB01",
     "name": "borax + citric acid + sulfur + zinc oxide + zinc sulfate"
   },
+  "1187853": {
+    "atc": "A02BX13",
+    "name": "alginic acid + dried aluminum hydroxide gel + magnesium carbonate [Comb: alginic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1189026": {
+    "atc": "L01XC13",
+    "name": "pertuzumab + trastuzumab [Comb: pertuzumab]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1193963": {
+    "atc": "J05AX12",
+    "name": "dolutegravir + emtricitabine + tenofovir alafenamide [Comb: dolutegravir]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1194440": {
     "atc": "G03AC10",
     "name": "drospirenone"
@@ -13159,6 +14744,11 @@
     "atc": "A09AB04",
     "name": "citric acid"
   },
+  "1221236": {
+    "atc": "A09AB04",
+    "name": "citric acid monohydrate + glycerol + methylparaben + propylparaben + saccharin sodium + sodium citric dihydrate + sorbitol + xanthan gum [Comb: citric acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1221477": {
     "atc": "R03BA05",
     "name": "fluticasone furoate + umeclidinium + vilanterol"
@@ -13179,6 +14769,11 @@
     "atc": "L03AA14",
     "name": "lipegfilgrastim"
   },
+  "1222805": {
+    "atc": "C01CA06",
+    "name": "cyclopentolate hydrochloride + phenylephrine hydrochloride + tetracaine hydrochloride + tropicamide [Comb: phenylephrine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1222996": {
     "atc": "A16AA05",
     "name": "carglumic acid"
@@ -13195,6 +14790,11 @@
     "atc": "B03XA01",
     "name": "epoetin theta"
   },
+  "1230706": {
+    "atc": "V03AX03",
+    "name": "cobicistat + darunavir [Comb: cobicistat]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1231332": {
     "atc": "J05AB17",
     "name": "molnupiravir"
@@ -13202,6 +14802,11 @@
   "1231350": {
     "atc": "J05AB17",
     "name": "molnupiravir"
+  },
+  "1232355": {
+    "atc": "J05AX12",
+    "name": "dolutegravir + lamivudine [Comb: dolutegravir]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1237063": {
     "atc": "N02AE01",
@@ -13279,6 +14884,16 @@
     "atc": "B02BD04",
     "name": "coagulation factor IX"
   },
+  "1258166": {
+    "atc": "B02BD04",
+    "name": "coagulation factor II + coagulation factor IX + coagulation factor VII + coagulation factor X + protein c [Comb: coagulation factor IX]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1259354": {
+    "atc": "G03AC10",
+    "name": "drospirenone + estetrol [Comb: drospirenone]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1260217": {
     "atc": "A10BH07",
     "name": "Evogliptin"
@@ -13322,6 +14937,11 @@
   "1272297": {
     "atc": "A16AX07",
     "name": "sapropterin"
+  },
+  "1275248": {
+    "atc": "J04AB05",
+    "name": "isonizid + rifapentine [Comb: rifapentine]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1276441": {
     "atc": "B01AB01",
@@ -13387,6 +15007,11 @@
     "atc": "M01AB16",
     "name": "aceclofenac"
   },
+  "1288213": {
+    "atc": "J05AE10",
+    "name": "darunavir + ritonavir [Comb: darunavir]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1288395": {
     "atc": "D01AE15",
     "name": "terbinafine"
@@ -13414,6 +15039,11 @@
   "1294411": {
     "atc": "C01CA24",
     "name": "dextrose + norepinephrine"
+  },
+  "1294469": {
+    "atc": "J05AG03",
+    "name": "efavirenz + lamivudine + tenofovir disoproxil fumarate [Comb: efavirenz]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1294610": {
     "atc": "A04AA01",
@@ -13555,6 +15185,16 @@
     "atc": "A07AA05",
     "name": "polymyxin B"
   },
+  "1317368": {
+    "atc": "A01AB08",
+    "name": "gramicidin + neomycin + polymyxin B [Comb: neomycin]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1319185": {
+    "atc": "A06AG04",
+    "name": "carbomer + glycerol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1322029": {
     "atc": "L04AC06",
     "name": "mepolizumab"
@@ -13587,6 +15227,11 @@
     "atc": "S01KA08",
     "name": "hyaluronic acid"
   },
+  "1324777": {
+    "atc": "S01KA08",
+    "name": "sodium hyaluronate + sodium hyaluronate crosslinked [Comb: hyaluronic acid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1326486": {
     "atc": "B01AB01",
     "name": "neisseria meningitidis serogroup B heparin binding antigen fusion protein"
@@ -13594,6 +15239,21 @@
   "1326527": {
     "atc": "B01AB01",
     "name": "neisseria meningitidis serogroup B adhesin A protein + neisseria meningitidis serogroup B factor H binding protein fusion protein + neisseria meningitidis serogroup B heparin binding antigen fusion protein + neisseria meningitidis serogroup B outer membrane vesicles"
+  },
+  "1330538": {
+    "atc": "A11BA",
+    "name": "minerals + multivitamins + trace elements [Comb: multivitamins, plain]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1330765": {
+    "atc": "C01EB02",
+    "name": "camphor + levomenthol + methyl salicylate [Comb: camphor]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1331001": {
+    "atc": "V03AE07",
+    "name": "calcium acetate + magnesium carbonate [Comb: calcium acetate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1331709": {
     "atc": "A10BK01",
@@ -13647,6 +15307,11 @@
     "atc": "N07BB04",
     "name": "naltrexone"
   },
+  "1345497": {
+    "atc": "D11AX21",
+    "name": "brimonidine tartrate + ripasudil [Comb: brimonidine]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1346716": {
     "atc": "M01AE02",
     "name": "naproxen sodium"
@@ -13683,6 +15348,11 @@
     "atc": "L01XC31",
     "name": "avelumab"
   },
+  "1355477": {
+    "atc": "R01AD09",
+    "name": "mometasone furoate + olopatadine [Comb: mometasone furoate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1357710": {
     "atc": "R06AX22",
     "name": "ebastine"
@@ -13690,6 +15360,11 @@
   "1357734": {
     "atc": "R06AX22",
     "name": "ebastine"
+  },
+  "1358083": {
+    "atc": "A06AG04",
+    "name": "carmellose sodium + glycerol + sorbitol [Comb: glycerol]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1360495": {
     "atc": "A12CB01",
@@ -13747,9 +15422,24 @@
     "atc": "H02AB06",
     "name": "prednisolone acetate"
   },
+  "1371166": {
+    "atc": "J04AC01",
+    "name": "isoniazid + rifapentine [Comb: isoniazid]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
+  "1371496": {
+    "atc": "S01BA14",
+    "name": "loteprednol etabonate + tobramycin [Comb: loteprednol etabonate]",
+    "matchType": "COMBINATION_PRIMARY"
+  },
   "1371505": {
     "atc": "S01BA14",
     "name": "loteprednol etabonate"
+  },
+  "1372186": {
+    "atc": "C02KX04",
+    "name": "macitentan + tadalafil [Comb: macitentan]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1372674": {
     "atc": "R03AC13",
@@ -13762,6 +15452,11 @@
   "1373447": {
     "atc": "L01XX60",
     "name": "talazoparib"
+  },
+  "1375820": {
+    "atc": "G03DB08",
+    "name": "dienogest + ethinylestradiol [Comb: dienogest]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1377430": {
     "atc": "B03BA01",
@@ -13798,6 +15493,11 @@
   "1389575": {
     "atc": "A02AC01",
     "name": "calcium carbonate"
+  },
+  "1389599": {
+    "atc": "A02AC01",
+    "name": "calcium  carbonate + sodium alginate + sodium bicarbonate [Comb: calcium carbonate]",
+    "matchType": "COMBINATION_PRIMARY"
   },
   "1391043": {
     "atc": "D06AX14",

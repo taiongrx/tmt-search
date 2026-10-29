@@ -84,7 +84,7 @@ function escapeSql(str) {
 
 outStream.write("BEGIN TRANSACTION;\n");
 
-// 1. Insert Concepts
+// 1. Insert Concepts (TMT 8 Types + TTMT Thai Traditional)
 const types = ["SUBS", "VTM", "GP", "GPU", "GPP", "TP", "TPU", "TPP"];
 let conceptCount = 0;
 for (const t of types) {
@@ -98,6 +98,19 @@ for (const t of types) {
     conceptCount++;
   }
 }
+
+// 1.1 Insert TTMT (Thai Traditional Medicines)
+const ttmtFile = path.join(__dirname, "../public/data/ttmt_drugs.json");
+if (fs.existsSync(ttmtFile)) {
+  const ttmtData = JSON.parse(fs.readFileSync(ttmtFile, "utf-8"));
+  for (const [id, c] of Object.entries(ttmtData)) {
+    outStream.write(
+      `INSERT OR IGNORE INTO dim_concept VALUES (${escapeSql(c.id)}, 'TTMT', ${escapeSql(c.fsn)}, ${escapeSql(c.tradeName)}, ${escapeSql(c.activeIngredient)}, ${escapeSql(c.dosageForm)}, ${escapeSql(c.strength)}, ${escapeSql(c.dispUnit)}, ${escapeSql(c.mfr)}, ${escapeSql(c.status)}, '20261001', CURRENT_TIMESTAMP);\n`
+    );
+    conceptCount++;
+  }
+}
+
 
 // 2. Insert Relations
 const relFile = path.join(__dirname, "../public/data/relations.json");
