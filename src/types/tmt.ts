@@ -49,11 +49,16 @@ export interface LocalDrugItem {
   localName: string;
   strength?: string;
   dosageForm?: string;
-  // Mapped output:
+  // Mapped TPU output:
   mappedTmtId?: string;
   mappedTmtFsn?: string;
   mappedTmtType?: ConceptType;
+  // Mapped GPU output (Clinical Formula):
+  mappedGpuId?: string;
+  mappedGpuFsn?: string;
+  // Resolved WHO-ATC Code:
   mappedAtcCode?: string;
   confidence?: number;
   matchType?: 'exact' | 'fuzzy' | 'none' | 'manual';
 }
+

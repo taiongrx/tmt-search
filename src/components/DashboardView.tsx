@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { Database, FileText, CheckCircle } from 'lucide-react';
+import { Database, FileText, CheckCircle, Terminal } from 'lucide-react';
+import { QuickLookup } from './QuickLookup';
+import { ApiDocsModal } from './ApiDocsModal';
 import type { MetaInfo } from '../types/tmt';
 
+
 interface DashboardViewProps {
-  onNavigate: (view: 'TRANSLATOR' | 'BROWSER') => void;
+  onNavigate: (view: 'TRANSLATOR' | 'BROWSER' | 'MAPPER') => void;
 }
+
 
 export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
   const [meta, setMeta] = useState<MetaInfo | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showApiDocs, setShowApiDocs] = useState(false);
+
 
   useEffect(() => {
     fetch('/data/meta.json')
@@ -87,17 +93,53 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ onNavigate }) => {
           <div style={{ background: 'rgba(255,255,255,0.06)', padding: '16px 20px', borderRadius: 'var(--radius-md)', border: '1px solid rgba(255,255,255,0.08)' }}>
             <p style={{ fontSize: '0.75rem', color: 'hsl(210, 10%, 70%)', fontWeight: 600 }}>เวอร์ชันเผยแพร่</p>
             <p style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--secondary)', fontFamily: 'var(--font-mono)' }}>
-              {meta?.version || 'TMTRF20260803'}
+              {meta?.version || 'TMTRF20261019'}
             </p>
           </div>
           <div style={{ background: 'rgba(255,255,255,0.06)', padding: '16px 20px', borderRadius: 'var(--radius-md)', border: '1px solid rgba(255,255,255,0.08)' }}>
             <p style={{ fontSize: '0.75rem', color: 'hsl(210, 10%, 70%)', fontWeight: 600 }}>วันที่เผยแพร่</p>
             <p style={{ fontSize: '1.4rem', fontWeight: 800, color: 'white' }}>
-              {meta?.releaseDate || '3 ส.ค. 2569'}
+              {meta?.releaseDate || '19 ต.ค. 2569'}
             </p>
           </div>
+          <button
+            onClick={() => setShowApiDocs(true)}
+            style={{
+              background: 'linear-gradient(135deg, var(--secondary), hsl(160, 90%, 35%))',
+              color: 'white',
+              border: 'none',
+              padding: '16px 20px',
+              borderRadius: 'var(--radius-md)',
+              cursor: 'pointer',
+              fontWeight: 700,
+              fontSize: '0.9rem',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'flex-start',
+              boxShadow: 'var(--shadow-md)',
+              transition: 'transform 0.15s ease'
+            }}
+          >
+            <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <Terminal className="w-4 h-4" /> API Docs
+            </span>
+            <span style={{ fontSize: '0.75rem', opacity: 0.9, marginTop: '2px' }}>
+              เชื่อมต่อระบบภายนอก
+            </span>
+          </button>
         </div>
       </div>
+
+      {/* Quick Lookup Card: Instant Search */}
+      <QuickLookup 
+        onNavigateToTranslator={(_code) => onNavigate('TRANSLATOR')}
+      />
+
+
+      {/* API Docs Modal */}
+      {showApiDocs && <ApiDocsModal onClose={() => setShowApiDocs(false)} />}
+
 
       {/* Metrics Section */}
       <div>

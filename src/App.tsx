@@ -88,7 +88,7 @@ export function App() {
               className={`nav-button ${activeView === 'DASHBOARD' ? 'active' : ''}`}
               onClick={() => setActiveView('DASHBOARD')}
             >
-              <LayoutDashboard /> แผงควบคุมระบบ (Dashboard)
+              <LayoutDashboard /> แผงควบคุม & ค้นหาด่วน
             </button>
           </li>
           <li className="nav-item">
@@ -96,7 +96,7 @@ export function App() {
               className={`nav-button ${activeView === 'TRANSLATOR' ? 'active' : ''}`}
               onClick={() => setActiveView('TRANSLATOR')}
             >
-              <ArrowRightLeft /> แปลงและเทียบรหัสยา
+              <ArrowRightLeft /> แปลงเทียบรหัสยา & ATC
             </button>
           </li>
           <li className="nav-item">
@@ -104,7 +104,7 @@ export function App() {
               className={`nav-button ${activeView === 'BROWSER' ? 'active' : ''}`}
               onClick={() => setActiveView('BROWSER')}
             >
-              <Search /> สืบค้นข้อมูลแนวคิด TMT
+              <Search /> สืบค้นโครงสร้าง TMT (8 ระดับ)
             </button>
           </li>
           <li className="nav-item">
@@ -112,7 +112,7 @@ export function App() {
               className={`nav-button ${activeView === 'MAPPER' ? 'active' : ''}`}
               onClick={() => setActiveView('MAPPER')}
             >
-              <UploadCloud /> จับคู่รหัสยาท้องถิ่น
+              <UploadCloud /> จับคู่รหัสยาท้องถิ่น (Mapper)
             </button>
           </li>
         </nav>
